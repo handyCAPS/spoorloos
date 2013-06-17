@@ -1,0 +1,557 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"found",
+				"foundation_orbit"
+			],
+			[
+				"plu",
+				"plugins_url"
+			],
+			[
+				"enque",
+				"wp_enqueue_script"
+			],
+			[
+				"founda",
+				"foundation_core"
+			],
+			[
+				"Plugin",
+				"plugin_basename"
+			],
+			[
+				"register_si",
+				"register_sidebar"
+			],
+			[
+				"reve",
+				"revealWrapIct"
+			],
+			[
+				"reveal",
+				"revealWrapAds"
+			],
+			[
+				"re",
+				"revealWrap1"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"gethead",
+				"get_header"
+			],
+			[
+				"floa",
+				"float"
+			],
+			[
+				"textal",
+				"text-align"
+			],
+			[
+				"user",
+				"user_email"
+			],
+			[
+				"dat",
+				"database"
+			],
+			[
+				"fbur",
+				"facebook_url"
+			],
+			[
+				"fa",
+				"facebook_name"
+			],
+			[
+				"fac",
+				"facebook_url"
+			],
+			[
+				"faceboo",
+				"facebook_name"
+			],
+			[
+				"fb",
+				"fb_pos"
+			],
+			[
+				"tw",
+				"twitpos"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"st",
+				"step5-gold-em"
+			],
+			[
+				"read",
+				"ready	$(document).ready"
+			],
+			[
+				"ste",
+				"step1-gold-em"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"funct",
+				"function_exists"
+			],
+			[
+				"main",
+				"main-blue"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"lig",
+				"lightGreen"
+			],
+			[
+				"s",
+				"step-5-gold-em"
+			],
+			[
+				"vi",
+				"visible"
+			],
+			[
+				"dar",
+				"darkGreen"
+			],
+			[
+				"da",
+				"darken"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"heade",
+				"header-font"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"step",
+				"step7-gold-em"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"scal",
+				"scaleBase3"
+			],
+			[
+				"scale",
+				"scaleBase1"
+			],
+			[
+				"mod",
+				"modScale"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "stylesheet.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"loi",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"sni",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"prfx",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"ips",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"snjdoc",
+				"Snippet: jdocinclude-modules"
+			],
+			[
+				"sn",
+				"Snippet: jdocinclude-message"
+			],
+			[
+				"Snippet: ",
+				"Snippet: jheader"
+			],
+			[
+				"pia",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"packins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: tags",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 188.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/inde.php",
+		"/C/wamp/www/wordpress/wp-content/plugins/zorbit-slider/js/orbit-int.js",
+		"/C/wamp/www/wordpress/wp-content/plugins/zorbit-slider/js.orbit-init.js",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/WordpressDev/WordPressDev.sublime-settings",
+		"/C/wamp/www/wordpress/wp-content/languages/admin-network-nl_NL.mo",
+		"/C/Users/Tim/SiteMap2/ict-lab/functions.php",
+		"/C/Users/Tim/SiteMap2/ict-lab/sidebar-orbit.php",
+		"/C/Users/Tim/SiteMap2/ict-lab/orbit-page.php",
+		"/C/Users/Tim/SiteMap2/ict-lab/page.php",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/page.php",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/functions.php",
+		"/C/Users/Tim/SiteMap2/teff/twentytwelve/footer.php",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/footer.php",
+		"/C/Users/Tim/SiteMap2/ict-lab/orbit-sidebar.php",
+		"/C/Users/Tim/SiteMap2/ict-lab/pp.php",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Tim/SiteMap2/ict-lab/index.html",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/Tag/Tag Package.sublime-settings",
+		"/C/Users/Tim/SiteMap2/ict-lab/css/main.css",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/js/jquey.pin.min.js",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/index.php",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXII/style.css",
+		"/C/Users/Tim/SiteMap2/compass/config.rb",
+		"/C/Users/Tim/SiteMap2/_jQuery plugins/jquery.localscroll-1.2.7-min.js.txt",
+		"/C/Users/Tim/SiteMap2/_jQuery plugins/jquery.scrollTo-1.4.3.1-min.js.txt",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/js/scrollTo.js",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/header.php",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/footer.php",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/sidebar.php",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/sidebar-page.php",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/page.php",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/index.php",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/functions.php",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/index.html",
+		"/C/Users/Tim/SiteMap2/_themes_wordpress/Bones/page.php",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/style.css",
+		"/C/Users/Tim/SiteMap2/spoor11/style.css",
+		"/C/Users/Tim/SiteMap2/spoor11/.gitignore",
+		"/C/Users/Tim/SiteMap2/spoor11/index.html",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/Prefixr/Default (Windows).sublime-keymap",
+		"/C/Users/Tim/SiteMap2/spoor11/foundation/index.html",
+		"/C/Users/Tim/SiteMap2/sportenspel/Blank-Template-master/templateDetails.xml",
+		"/C/Users/Tim/SiteMap2/_themes_joomla/siegeengine2/index.php",
+		"/C/Users/Tim/SiteMap2/sportenspel/index.php",
+		"/C/Users/Tim/SiteMap2/sportenspel/Joomla_2_5_nl/templates/beez5/component.php",
+		"/C/Users/Tim/SiteMap2/sportenspel/Joomla_2_5_nl/templates/beez5/templateDetails.xml",
+		"/C/Users/Tim/SiteMap2/sportenspel/Joomla_2_5_nl/templates/beez5/index.php",
+		"/C/Users/Tim/SiteMap2/sportenspel/index.html",
+		"/C/wamp/www/phpleer/database_connection.php",
+		"/C/wamp/www/phpleer/app_config.php",
+		"/C/wamp/www/phpleer/create_user.php",
+		"/C/wamp/www/phpleer/formInputFill.php",
+		"/C/Users/Tim/SiteMap2/PHPMySQLMissingCD/PHP_ch02_files/socialEntryForm_2-2.html",
+		"/C/wamp/www/phpleer/css/phpMM.css",
+		"/C/wamp/www/teff_zurb/wp-config.php",
+		"/C/wamp/www/phpleer/test_connect.php",
+		"/C/Fraps/HELP/help_movies.htm",
+		"/C/Users/Tim/SiteMap2/teff_zurb/header.php",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_wp/wp-config.php",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_wp/.htaccess",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/practice/js/script.js",
+		"/C/wamp/www/wordpress/wp-content/themes/bones/style.css",
+		"/C/wamp/www/wordpress/wp-content/themes/bones/library/scss/config.rb",
+		"/C/wamp/www/wordpress/wp-content/themes/bones/library/config.rb",
+		"/C/wamp/www/teff_zurb/teff/index.html",
+		"/C/wamp/www/witte-merel-wp_theme/header.php",
+		"/C/wamp/www/witte-merel-wp_theme/index.php",
+		"/C/Users/Tim/SiteMap2/teff_zurb/scss/_base",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_wp/wp-content/themes/bones/library/scss/_custom-fonts.scss",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/_scraps/_legacy/1-27-2013/index.php",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/_scraps/22-3-2013 infected/index.html",
+		"/C/wamp/www/timdoppenberg_nl/wp-config.php",
+		"/C/wamp/www/timdoppenberg_nl/.htaccess",
+		"/C/Users/Tim/SiteMap2/witte-merel/config.rb",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/practice/sftp-config.json",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/practice/sass/partials/_page.scss",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/practice/index.html",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/practice/css/style.css",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/zurbster/js/script.js",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/practice/sass/partials/_media.scss",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/zurbster/scss/app.scss",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/zurbster/scss/_base.scss",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/zurbster/_fonts.scss",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/zurbster/_base.scss",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/zurbster/scss/_settings.scss",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/blog/.htaccess",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/blog/wp-config.php",
+		"/C/wamp/www/wordpress/wp-content/themes/witte-merel-wp_theme/siderbar.php",
+		"/C/wamp/www/wordpress/wp-content/themes/witte-merel-wp_theme/_snippets",
+		"/C/wamp/www/wordpress/wp-content/themes/witte-merel-wp_theme/_wordpress.scss",
+		"/C/wamp/www/wordpress/wp-content/themes/witte-merel-wp_theme/_wordpress",
+		"/C/Users/Tim/SiteMap2/witte-merel/index.html",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/AdvancedNewFile/README.md",
+		"/C/Users/Tim/SiteMap2/witte-merel/css/style.css",
+		"/C/Users/Tim/SiteMap2/witte-merel/sass/partials/_fonts.scss",
+		"/C/Users/Tim/SiteMap2/witte-merel/sass/partials/_base.scss",
+		"/C/Users/Tim/SiteMap2/witte-merel/sass/partials/_page.scss",
+		"/C/Users/Tim/SiteMap2/zurb-foundation-4/index.html",
+		"/C/Users/Tim/SiteMap2/remi-moldova/remi-moldova/sass/partials/_base.scss",
+		"/C/Users/Tim/SiteMap2/iCTlab_frame/sass/partials/_base.scss",
+		"/C/Users/Tim/SiteMap2/iCTlab_frame/sass/partials/_scale.scss",
+		"/C/Users/Tim/SiteMap2/iCTlab_frame/sass/partials/_page.scss",
+		"/C/Users/Tim/SiteMap2/iCTlab_frame/index.html",
+		"/C/Users/Tim/SiteMap2/iCTlab_frame/sass/partials/_mixins.scss",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Tim/SiteMap2/compass/compass/TODO.md",
+		"/C/Users/Tim/SiteMap2/compass/compass/examples/compass/bootstrap.rb"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"",
+			"zorbit_slider_image",
+			"fwds_slider_upload",
+			"mainContent",
+			"fold",
+			"widtget",
+			"images",
+			"black",
+			"white",
+			"left",
+			"Left",
+			"left",
+			"Left",
+			"left",
+			"1",
+			"images",
+			"/phpMM/",
+			"nav",
+			"top-nav",
+			"h2",
+			"box-sh",
+			"$script"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$dark",
+			"$light",
+			"../images",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "stylesheet.css",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 34.0
+	},
+	"output.sftp":
+	{
+		"height": 34.0
+	},
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"sass/partials/_base.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true
+}

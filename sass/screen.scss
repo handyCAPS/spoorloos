@@ -1,0 +1,19 @@
+
+@import "compass/css3";
+@import "compass/utilities";
+@import "_variables.scss";
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	font-size: $fontbase;
+	font-family: $sans;
+	background: url('images/header_background.png');
+	background-size: cover;
+}
