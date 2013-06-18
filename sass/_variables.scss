@@ -21,3 +21,5 @@ $lightColor: hsl($hue1, 85%, 86%);
 $lightColorOverlay:  hsla($hue1, 85%, 91%, $overlayOpacity);
 $contrastColor:  hsl($hue2, 85%, 68%);
 $contrastColorOverlay:  hsla($hue1, 85%, 42%, $overlayOpacity);
+
+$linkColor: $darkColor;

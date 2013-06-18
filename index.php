@@ -85,7 +85,7 @@
 						consequat.
 						</p>
 					</div><!--  end hiddenIct  -->
-					<img src="images/ictlab.jpg" alt="ICT-Lab Alphen a/d Rijn">
+					<img src="images/ict-lab.png" alt="ICT-Lab Alphen a/d Rijn">
 				</div><!--  end revealWrapIct  -->
 			</div><!--  end headerImageWrap  -->
 		</header>
@@ -123,6 +123,15 @@
 			</div><!--  end rightColumn  -->
 		</div><!--  end columnWrap  -->
 	</div><!--  end mainContact  -->
+
+	<footer>
+		
+		&copy; 2013 Spoor 11
+		<hr>
+		<p>Design and development by <a href="http://ictlab.info" target="_blank">ICT-Lab</a></p>
+		<hr>
+	</footer>
+
 </div><!--  end outerWrap  -->
 </body>
 </html>
