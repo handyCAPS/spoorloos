@@ -30,10 +30,16 @@ hr {
 a {
 	color: $linkColor;
 	text-decoration: none;
+	-webit-transition: all 0.4s ease 0.15s;
+	-moz-transition: all 0.4s ease 0.15s;
+	transition: all 0.4s ease 0.15s;
+		&:hover {
+			color: darken($linkColor, 16);
+		}
 }
 
-.lees_meer {
-	color: lighten($linkColor, 53);
+.lees_meer a {
+	color: $lightColor;
 	text-shadow: 0.2px 0.4px 0.3px black;
 }
 
