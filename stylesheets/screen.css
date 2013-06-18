@@ -1,103 +1,140 @@
-/*
-Syntax error: Invalid CSS after "...hue1, 85%, 25%,": expected function argument, was ");"
-        on line 16 of C:/Users/Tim/SiteMap2/spoorloos_rebuild/sass/_variables.scss
-        from line 4 of C:/Users/Tim/SiteMap2/spoorloos_rebuild/sass/screen.scss
+/* line 6, ../sass/screen.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-Backtrace:
-C:/Users/Tim/SiteMap2/spoorloos_rebuild/sass/_variables.scss:16
-C:/Users/Tim/SiteMap2/spoorloos_rebuild/sass/screen.scss:4
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/scss/parser.rb:1134:in `expected'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/lexer.rb:199:in `expected!'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:471:in `assert_expr'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:392:in `arglist'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:370:in `fn_arglist'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:470:in `assert_expr'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:392:in `arglist'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:370:in `fn_arglist'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:470:in `assert_expr'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:392:in `arglist'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:370:in `fn_arglist'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:332:in `funcall'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:320:in `ident'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:228:in `unary_not'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:228:in `unary_div'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:228:in `unary_minus'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:228:in `unary_plus'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:209:in `times_div_or_mod'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:209:in `plus_or_minus'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:209:in `relational'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:209:in `eq_or_neq'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:209:in `and_expr'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:209:in `or_expr'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:299:in `space'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:284:in `interpolation'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:247:in `expr'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:470:in `assert_expr'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/parser.rb:49:in `parse'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/scss/parser.rb:1008:in `sass_script'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/scss/parser.rb:500:in `variable'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/scss/parser.rb:539:in `block_child'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/scss/parser.rb:532:in `block_contents'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/scss/parser.rb:70:in `stylesheet'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/scss/parser.rb:27:in `parse'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/engine.rb:342:in `_to_tree'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/engine.rb:274:in `to_tree'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:223:in `visit_import'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:7:in `visit'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/engine.rb:315:in `_render'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/engine.rb:262:in `render'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:44:in `call'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
-C:/Ruby193/bin/compass:23:in `load'
-C:/Ruby193/bin/compass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"...hue1, 85%, 25%,\": expected function argument, was \");\"\A         on line 16 of C:/Users/Tim/SiteMap2/spoorloos_rebuild/sass/_variables.scss\A         from line 4 of C:/Users/Tim/SiteMap2/spoorloos_rebuild/sass/screen.scss"; }
+/* line 13, ../sass/screen.scss */
+body {
+  width: 100%;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background: url("../images/chruch.png");
+}
+
+/* line 20, ../sass/screen.scss */
+header {
+  margin: 0 auto;
+  background-image: url("../images/header_background.png");
+  background-size: cover;
+}
+
+/* line 26, ../sass/screen.scss */
+#outerWrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 31, ../sass/screen.scss */
+#headerNavWrap {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 35, ../sass/screen.scss */
+#headerNav {
+  background: black;
+  min-width: 15%;
+  float: right;
+  margin: 1.5em 0 0;
+}
+/* line 40, ../sass/screen.scss */
+#headerNav ul {
+  overflow: hidden;
+  *zoom: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 45, ../sass/screen.scss */
+#headerNav ul li {
+  float: left;
+  margin: 0.238em 0.618em;
+  padding: 0;
+}
+/* line 49, ../sass/screen.scss */
+#headerNav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 59, ../sass/screen.scss */
+#firstContactWrap {
+  overflow: hidden;
+  *zoom: 1;
+  width: 68%;
+  margin: 0 auto;
+}
+
+/* line 65, ../sass/screen.scss */
+#firstContact {
+  color: white;
+  background-color: rgba(10, 91, 118, 0.7);
+  padding: 0.618em 1.306em;
+}
+/* line 69, ../sass/screen.scss */
+#firstContact h2 {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 75, ../sass/screen.scss */
+#actionCall {
+  background-color: rgba(66, 196, 240, 0.7);
+  min-width: 143.244px;
+  text-align: center;
+  padding: 0.618em;
+  float: right;
+  margin-top: 1.618em;
+  border: 1.6px solid #0a5b76;
+  -o-transition: all 0.7s ease 0.2s;
+  -webkit-transition: all 0.7s ease 0.2s;
+  -moz-transition: all 0.7s ease 0.2s;
+  transition: all 0.7s ease 0.2s;
+}
+/* line 87, ../sass/screen.scss */
+#actionCall p {
+  text-decoration: none;
+  color: white;
+  font-size: 1.618em;
+  margin: 0;
+}
+/* line 93, ../sass/screen.scss */
+#actionCall:hover {
+  background-color: rgba(18, 167, 217, 0.7);
+  border: 1.6px solid rgba(213, 242, 252, 0.7);
+}
+
+/* line 99, ../sass/screen.scss */
+#mainContent {
+  width: 96%;
+  margin: 0 auto;
+}
+
+/* line 104, ../sass/screen.scss */
+#columnWrap {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 108, ../sass/screen.scss */
+.columns {
+  width: 31%;
+  margin: 1.306em 0.807em;
+  float: left;
+  padding: 1.306em;
+  border: 1px solid #0a5b76;
+  background-color: rgba(255, 255, 255, 0.78);
+}
+/* line 115, ../sass/screen.scss */
+.columns h3 {
+  width: 68%;
+  margin: 1em auto;
+  border-radius: 2px;
+  background-color: #1095c1;
+  text-align: center;
+}

@@ -11,6 +11,7 @@
 		}
 		?>
 	</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="stylesheets/print.css">
 	<link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
@@ -30,27 +31,28 @@
 <body>
 <div id="outerWrap">
 		<header>
-
-			<nav id="headerNav">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
-
+			<div id="headerNavWrap">
+				<nav id="headerNav">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div><!--  end headerNavWrap  -->
 			<div id="logo"><h1>Spoor 11</h1></div><!--  end logo  -->
-
-			<div id="firstContact">
-				<h2>Welkom</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div><!--  end firstContact  -->
-			<div id="actionCall">CONTACT</div><!--  end actionCall  -->
+			<div id="firstContactWrap">
+				<div id="firstContact">
+					<h2>Welkom</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div><!--  end firstContact  -->
+				<a href="#"><div id="actionCall"><p>CONTACT</p></div></a><!--  end actionCall  -->
+			</div><!--  end firstContactWrap  -->
 			<div id="headerImageWrap">
 				<div id="revealWrapAds">
 					<div id="hiddenAds" class="revealOnHover">
