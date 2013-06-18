@@ -13,6 +13,8 @@ $hue1: 195;
 $hue2: 30;
 $overlayOpacity: 0.7;
 
+$white: #FFF;
+
 $darkColor:  hsl($hue1, 85%, 25%);
 $darkColorOverlay:  hsla($hue1, 85%, 25%, $overlayOpacity);
 $middleColor:  hsl($hue1, 68%, 68%);
@@ -22,4 +24,9 @@ $lightColorOverlay:  hsla($hue1, 85%, 91%, $overlayOpacity);
 $contrastColor:  hsl($hue2, 85%, 68%);
 $contrastColorOverlay:  hsla($hue1, 85%, 42%, $overlayOpacity);
 
-$linkColor: $darkColor;
+$linkColor: $middleColor;
+
+@mixin rolloverSize {
+	width: 200px;
+	// height: 150px;
+}

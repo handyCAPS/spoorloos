@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-size"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"getsty",
+				"get_stylesheet_directory"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
 				"found",
 				"foundation_orbit"
 			],
@@ -116,10 +132,6 @@
 				"main-blue"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"lig",
 				"lightGreen"
 			],
@@ -188,10 +200,26 @@
 	"buffers":
 	[
 		{
-			"file": "stylesheet.css",
+			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 5914,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/screen.scss",
+			"settings":
+			{
+				"buffer_size": 2487,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 619,
 				"line_ending": "Windows"
 			}
 		}
@@ -203,12 +231,24 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
 				"pa",
 				"Package Control: Install Package"
 			],
 			[
-				"p",
-				"Package Control: Install Package"
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
 			],
 			[
 				"loi",
@@ -280,6 +320,19 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/.gitignore",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/charset.sublime-snippet",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/js/jquery.min.js",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/js/html5shiv.js",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/if_ie.sublime-snippet",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/functions.php",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/normalize.css",
+		"/C/Users/Tim/SiteMap2/Wordpress 3.5.1 nl/wp-content/themes/twentytwelve/style.css",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/wordpress_css_start.sublime-snippet",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/style.css",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/header.php",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/index.php",
 		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/inde.php",
 		"/C/wamp/www/wordpress/wp-content/plugins/zorbit-slider/js/orbit-int.js",
 		"/C/wamp/www/wordpress/wp-content/plugins/zorbit-slider/js.orbit-init.js",
@@ -301,7 +354,6 @@
 		"/C/Users/Tim/SiteMap2/ict-lab/css/main.css",
 		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/js/jquey.pin.min.js",
 		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
-		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/index.php",
 		"/C/Users/Tim/SiteMap2/spoor11/spoorXII/style.css",
 		"/C/Users/Tim/SiteMap2/compass/config.rb",
 		"/C/Users/Tim/SiteMap2/_jQuery plugins/jquery.localscroll-1.2.7-min.js.txt",
@@ -406,6 +458,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"0,7",
+			"hsla",
+			"\\",
+			"deelnemers",
+			"Deelnemers",
+			"leftColumn",
+			"deelnemers",
+			"Deelnemers",
+			"leftColumn",
+			"Aan De Slag",
+			"hiddenAds",
+			"revealWrapAds",
+			"Aan De Slag",
+			"hiddenAds",
+			"revealWrapAds",
+			"h2",
 			"\"",
 			"zorbit_slider_image",
 			"fwds_slider_upload",
@@ -449,34 +517,97 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "stylesheet.css",
+					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 5914,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3520,
+								3520
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
+							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2100.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/screen.scss",
+					"settings":
+					{
+						"buffer_size": 2487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1950,
+								1950
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3147.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/_variables.scss",
+					"settings":
+					{
+						"buffer_size": 619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								617,
+								617
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 7.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

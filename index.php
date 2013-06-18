@@ -40,7 +40,7 @@
 					</ul>
 				</nav>
 			</div><!--  end headerNavWrap  -->
-			<div id="logo"><h1>Spoor 11</h1></div><!--  end logo  -->
+			<div id="logo"><h1><a href="#"><img src="images/logo.png"></a></h1></div><!--  end logo  -->
 			<div id="firstContactWrap">
 				<div id="firstContact">
 					<h2>Welkom</h2>
@@ -49,43 +49,40 @@
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <span class="lees_meer"><a href="#columnWrap">Lees meer ...</a></span></p>
 				</div><!--  end firstContact  -->
 				<a href="#"><div id="actionCall"><p>CONTACT</p></div></a><!--  end actionCall  -->
 			</div><!--  end firstContactWrap  -->
 			<div id="headerImageWrap">
-				<div id="revealWrapAds">
+				<div id="revealWrapAds" class="reveal_wrap_class">
 					<div id="hiddenAds" class="revealOnHover">
 						<h3>Aan De Slag</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat.
+						quis nostrud exercitation ullamco laboris. Blabla bla blah. <span class="lees_meer"><a href="#">Lees meer ...</a></span>
 						</p>
 					</div><!--  end hiddenAds  -->
 					<img src="images/aandeslag.jpg" alt="Aan De Slag Alphen a/d Rijn">
 				</div><!--  end revealWrapAds  -->
-				<div id="revealWrapKdb">
+				<div id="revealWrapKdb" class="reveal_wrap_class">
 					<div id="hiddenKdb" class="revealOnHover">
 						<h3>Kinderboerderij</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat.
+						quis nostrud exercitation ullamco laboris. Blabla bla blah. <span class="lees_meer"><a href="#">Lees meer ...</a></span>
 						</p>
 					</div><!--  end hiddenKdb  -->
 					<img src="images/kinderboerderij.jpg" alt="Kinderboerderij Boskoop">
 				</div><!--  end revealWrapKdb  -->
-				<div id="revealWrapIct">
+				<div id="revealWrapIct" class="reveal_wrap_class">
 					<div id="hiddenIct" class="revealOnHover">
 						<h3>ICT-Lab</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat.
+						quis nostrud exercitation ullamco laboris. Blabla bla blah. <span class="lees_meer"><a href="#">Lees meer ...</a></span>
 						</p>
 					</div><!--  end hiddenIct  -->
-					<img src="images/ict-lab.png" alt="ICT-Lab Alphen a/d Rijn">
+					<img src="images/ict-lab.jpg" alt="ICT-Lab Alphen a/d Rijn">
 				</div><!--  end revealWrapIct  -->
 			</div><!--  end headerImageWrap  -->
 		</header>
@@ -133,5 +130,16 @@
 	</footer>
 
 </div><!--  end outerWrap  -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.ui.js"></script>
+<script type="text/javascript" src="js/jquery.pin.js"></script>
+<script type="text/javascript" src="js/scrollTo.js"></script>
+<script type="text/javascript" src="js/localScroll.js"></script>
+<script type="text/javascript" src="js/spoorInit.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		spoorInit();
+	});
+</script>
 </body>
 </html>
