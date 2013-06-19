@@ -2,14 +2,23 @@
 
 <div id="firstContactWrap">
 				<div id="firstContact">
-					<h2>Welkom</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <span class="lees_meer"><a href="#columnWrap">Lees meer ...</a></span></p>
+					<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+						<h2> <?php the_title(); ?> </h2>
+						
+						<p class="entry-content">
+							<?php
+								the_content();
+							?>
+						</p>
+						
+						<?php edit_post_link(); ?>
+					
 				</div><!--  end firstContact  -->
+
+			<?php endwhile; else: ?>
+			<p>Geen posts gevonden ...</p>
+			<?php endif; ?>
+
 				<a href="#"><div id="actionCall"><p>CONTACT</p></div></a><!--  end actionCall  -->
 			</div><!--  end firstContactWrap  -->
 			<div id="headerImageWrap">
@@ -46,38 +55,7 @@
 			</div><!--  end headerImageWrap  -->
 		</header>
 	<div id="mainContent">
-		<div id="columnWrap">
-			<div id="leftColumn" class="columns">
-				<h3>Deelnemers</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<img src="<?php echo SPOORWEG ?>/images/deelnemers.jpg" alt="Deelnemers Spoor 11">
-			</div><!--  end leftColumn  -->
-			<div id="middleColumn" class="columns">
-				<h3>Opdrachtgevers</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<img src="<?php echo SPOORWEG ?>/images/opdrachtgevers.jpg" alt="Opdrachtgevers Spoor 11">
-			</div><!--  end middleColumn  -->
-			<div id="rightColumn" class="columns">
-				<h3>Zorgverleners</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<img src="<?php echo SPOORWEG ?>/images/zorgverleners.jpg" alt="Zorgverleners Spoor 11">
-			</div><!--  end rightColumn  -->
-		</div><!--  end columnWrap  -->
+		<?php get_sidebar( 'frontpage' ); ?>
 	</div><!--  end mainContact  -->
 
 	<?php get_footer(); ?>

@@ -36,4 +36,78 @@
 
 	add_action( 'wp_enqueue_scripts', 'spoorxi_scripts' );
 
+	// De custom menu's 
+
+	function spoorxi_nav_menus() {
+
+		$locations = array(
+			'header_menu' => __('Header Menu', 'text-domain'),
+			'footer_menu' => __('Footer Menu', 'text-domain'),
+			'mobile_footer-menu' => __('Mobile Footer Menu', 'text-domain')
+			);
+
+		register_nav_menus( $locations );
+	}
+
+	add_action('init', 'spoorxi_nav_menus');
+
+	// de sidebars 
+
+	function sidebar_leftColumn() {
+
+		$args = ( array( 
+			'name'			=> 'linkerColumn',
+			'id'			=> 'left_column',
+			'description'	=> 'De linker colom op de homepage',
+			'before_widget'	=> '<div class="columns">',
+			'after_widget'	=> "</div>",
+			'before_title'	=> '<h3 class="column_title">',
+			'after_title'	=> "</h3>"
+			)	
+		);
+
+		register_sidebar( $args	);
+						
+	}
+
+	function sidebar_middleColumn() {
+
+		$args = ( array( 
+			'name'			=> 'middelColumn',
+			'id'			=> 'middle_column',
+			'description'	=> 'De middelste colom op de homepage',
+			'before_widget'	=> '<div class="columns">',
+			'after_widget'	=> "</div>",
+			'before_title'	=> '<h3 class="column_title">',
+			'after_title'	=> "</h3>"
+			)	
+		);
+
+		register_sidebar( $args	);
+						
+	}
+
+	function sidebar_rightColumn() {
+
+		$args = ( array( 
+			'name'			=> 'rechterColumn',
+			'id'			=> 'right_column',
+			'description'	=> 'De rechter colom op de homepage',
+			'before_widget'	=> '<div class="columns">',
+			'after_widget'	=> "</div>",
+			'before_title'	=> '<h3 class="column_title">',
+			'after_title'	=> "</h3>"
+			)	
+		);
+
+		register_sidebar( $args	);
+						
+	}
+
+	add_action('widgets_init', 'sidebar_leftColumn');
+	add_action('widgets_init', 'sidebar_middleColumn');
+	add_action('widgets_init', 'sidebar_rightColumn');
+
+
+
 ?>
