@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"spoor",
+				"spoorxi_scripts"
+			],
+			[
+				"wpenqsc",
+				"wp_enqueue_scripts"
+			],
+			[
+				"spooi",
+				"spoorinit"
+			],
+			[
+				"localsc",
+				"localscroll"
+			],
+			[
+				"jq",
+				"jqueryui"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"wpenq",
+				"wp_enqueue_style"
+			],
+			[
 				"back",
 				"background-size"
 			],
@@ -200,10 +228,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.php",
+			"file": "js/spoorInit.js",
 			"settings":
 			{
-				"buffer_size": 5914,
+				"buffer_size": 603,
 				"line_ending": "Windows"
 			}
 		},
@@ -211,7 +239,7 @@
 			"file": "sass/screen.scss",
 			"settings":
 			{
-				"buffer_size": 2487,
+				"buffer_size": 3159,
 				"line_ending": "Windows"
 			}
 		},
@@ -219,7 +247,55 @@
 			"file": "sass/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 619,
+				"buffer_size": 637,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "spoorXI/index.php",
+			"settings":
+			{
+				"buffer_size": 4871,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "spoorXI/header.php",
+			"settings":
+			{
+				"buffer_size": 1107,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "spoorXI/footer.php",
+			"settings":
+			{
+				"buffer_size": 317,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "spoorXI/sidebar.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "spoorXI/page.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "spoorXI/functions.php",
+			"settings":
+			{
+				"buffer_size": 1548,
 				"line_ending": "Windows"
 			}
 		}
@@ -231,20 +307,20 @@
 		"selected_items":
 		[
 			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"fe",
+				"Fetch: Manage"
+			],
+			[
 				"p",
 				"Package Control: Install Package"
 			],
 			[
 				"pa",
 				"Package Control: Install Package"
-			],
-			[
-				"fe",
-				"Fetch: File"
-			],
-			[
-				"fet",
-				"Fetch: File"
 			],
 			[
 				"lo",
@@ -303,7 +379,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 536.0
+		"width": 424.0
 	},
 	"console":
 	{
@@ -320,12 +396,17 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/index.php",
+		"/C/Users/Tim/SiteMap2/ict-lab/functions.php",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/wp-config.php",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/js/jquery.ui.js",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/js/localScroll.js",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
 		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/.gitignore",
 		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/charset.sublime-snippet",
 		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/js/jquery.min.js",
 		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/js/html5shiv.js",
 		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/if_ie.sublime-snippet",
-		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
 		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/functions.php",
 		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/normalize.css",
 		"/C/Users/Tim/SiteMap2/Wordpress 3.5.1 nl/wp-content/themes/twentytwelve/style.css",
@@ -338,7 +419,6 @@
 		"/C/wamp/www/wordpress/wp-content/plugins/zorbit-slider/js.orbit-init.js",
 		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/WordpressDev/WordPressDev.sublime-settings",
 		"/C/wamp/www/wordpress/wp-content/languages/admin-network-nl_NL.mo",
-		"/C/Users/Tim/SiteMap2/ict-lab/functions.php",
 		"/C/Users/Tim/SiteMap2/ict-lab/sidebar-orbit.php",
 		"/C/Users/Tim/SiteMap2/ict-lab/orbit-page.php",
 		"/C/Users/Tim/SiteMap2/ict-lab/page.php",
@@ -458,6 +538,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"true",
+			"false",
+			"s",
+			", $ver = false",
+			" $deps = array",
+			"normalize",
+			"images",
+			"fadeIn('slow')",
+			"show('fold')",
+			"Ads",
+			"Kdb",
+			"Ads",
+			" nisi ut aliquip ex ea commodo\n						consequat.",
+			"Excepteur sint occaecat cupidatat non\n					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+			"Lees meer ...",
+			"white",
 			"0,7",
 			"hsla",
 			"\\",
@@ -517,36 +613,42 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 8,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.php",
+					"file": "js/spoorInit.js",
 					"settings":
 					{
-						"buffer_size": 5914,
+						"buffer_size": 603,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3520,
-								3520
+								178,
+								178
+							],
+							[
+								344,
+								344
+							],
+							[
+								510,
+								510
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2100.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -556,15 +658,15 @@
 					"file": "sass/screen.scss",
 					"settings":
 					{
-						"buffer_size": 2487,
+						"buffer_size": 3159,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1950,
-								1950
+								679,
+								679
 							]
 						],
 						"settings":
@@ -573,11 +675,11 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3147.0,
+						"translation.y": 767.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -587,15 +689,15 @@
 					"file": "sass/_variables.scss",
 					"settings":
 					{
-						"buffer_size": 619,
+						"buffer_size": 637,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								617,
-								617
+								572,
+								572
 							]
 						],
 						"settings":
@@ -607,7 +709,247 @@
 							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 7.0,
+						"translation.y": 295.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "spoorXI/index.php",
+					"settings":
+					{
+						"buffer_size": 4871,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										2699,
+										2708
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								1365,
+								1365
+							],
+							[
+								1972,
+								1972
+							],
+							[
+								2573,
+								2573
+							],
+							[
+								3343,
+								3343
+							],
+							[
+								4014,
+								4014
+							],
+							[
+								4693,
+								4693
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2211.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "spoorXI/header.php",
+					"settings":
+					{
+						"buffer_size": 1107,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										722,
+										742
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "spoorXI/footer.php",
+					"settings":
+					{
+						"buffer_size": 317,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										153,
+										159
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "spoorXI/sidebar.php",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "spoorXI/page.php",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "spoorXI/functions.php",
+					"settings":
+					{
+						"buffer_size": 1548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1306,
+								1306
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -55,7 +55,7 @@
 			</div><!--  end headerImageWrap  -->
 		</header>
 	<div id="mainContent">
-		<?php get_sidebar( 'frontpage' ); ?>
-	</div><!--  end mainContact  -->
+		<?php get_sidebar(); ?>
+	</div><!--  end mainContent  -->
 
 	<?php get_footer(); ?>

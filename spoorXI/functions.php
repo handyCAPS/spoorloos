@@ -58,11 +58,11 @@
 		$args = ( array( 
 			'name'			=> 'linkerColumn',
 			'id'			=> 'left_column',
-			'description'	=> 'De linker colom op de homepage',
+			'description'		=> 'De linker colom op de homepage',
 			'before_widget'	=> '<div class="columns">',
-			'after_widget'	=> "</div>",
-			'before_title'	=> '<h3 class="column_title">',
-			'after_title'	=> "</h3>"
+			'after_widget'		=> "</div>",
+			'before_title'		=> '<h3 class="column_title">',
+			'after_title'		=> "</h3>"
 			)	
 		);
 
@@ -75,11 +75,11 @@
 		$args = ( array( 
 			'name'			=> 'middelColumn',
 			'id'			=> 'middle_column',
-			'description'	=> 'De middelste colom op de homepage',
+			'description'		=> 'De middelste colom op de homepage',
 			'before_widget'	=> '<div class="columns">',
-			'after_widget'	=> "</div>",
-			'before_title'	=> '<h3 class="column_title">',
-			'after_title'	=> "</h3>"
+			'after_widget'		=> "</div>",
+			'before_title'		=> '<h3 class="column_title">',
+			'after_title'		=> "</h3>"
 			)	
 		);
 
@@ -92,21 +92,39 @@
 		$args = ( array( 
 			'name'			=> 'rechterColumn',
 			'id'			=> 'right_column',
-			'description'	=> 'De rechter colom op de homepage',
+			'description'		=> 'De rechter colom op de homepage',
 			'before_widget'	=> '<div class="columns">',
-			'after_widget'	=> "</div>",
-			'before_title'	=> '<h3 class="column_title">',
-			'after_title'	=> "</h3>"
+			'after_widget'		=> "</div>",
+			'before_title'		=> '<h3 class="column_title">',
+			'after_title'		=> "</h3>"
 			)	
 		);
 
-		register_sidebar( $args	);
+		register_sidebar( $args );
+						
+	}
+
+	function sidebar_page() {
+
+		$args = ( array( 
+			'name'			=> 'Pagina',
+			'id'			=> 'page_bar',
+			'description'		=> 'De sidebar op pagina\'s',
+			'before_widget'	=> '<div class="sidebar_page">',
+			'after_widget'		=> "</div>",
+			'before_title'		=> '<h3 class="sidebar_title ribbon">',
+			'after_title'		=> "</h3>"
+			)	
+		);
+
+		register_sidebar( $args );
 						
 	}
 
 	add_action('widgets_init', 'sidebar_leftColumn');
 	add_action('widgets_init', 'sidebar_middleColumn');
 	add_action('widgets_init', 'sidebar_rightColumn');
+	add_action('widgets_init', 'sidebar_page');
 
 
 

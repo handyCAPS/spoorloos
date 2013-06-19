@@ -3,11 +3,7 @@
 <head>
 	<title>
 		<?php 
-		if (!is_home()) {
-			wp_title( ' | ', true, 'left' );
-		} else {
-			wp_title( ' | ', true, 'right' );
-		}
+		wp_title( ' | ', true, 'right' );
 		?>
 	</title>
 	

@@ -38,6 +38,14 @@ a {
 		}
 }
 
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
 .lees_meer a {
 	color: $lightColor;
 	text-shadow: 0.2px 0.4px 0.3px black;
@@ -51,7 +59,7 @@ a {
 #logo {
 	position: relative;
 	left: 1.618em;
-	top: -2.618em;
+	top: -3.42em;
 }
 
 #headerNavWrap {
@@ -62,7 +70,7 @@ a {
 	background: black;
 	min-width: 15%;
 	float: right;
-	margin: 1.5em 0 0;
+	margin: 1.306em 0 0;
 		ul {
 			@include clearfix;
 			list-style: none;
@@ -161,8 +169,35 @@ a {
 }
 
 #mainContent {
+	@include clearfix;
 	width: 96%;
-	margin: 0 auto;
+	margin: 0 auto 1.618em;
+}
+
+#pageWrap {
+	float: left;
+	background-color: $white;
+	width: 68%;
+	padding: 1em;
+		h2 {
+			margin: 0;
+		}
+		h3 {
+			margin-top: 0;
+		}
+		ul {
+			list-style: none;
+				li {
+					padding: 1em 0 1em;
+				}
+		}
+		.image_wrap {
+			width: 55%;
+			margin: 0 1em 0.618em 0;
+				img {
+					width: 100%;
+				}
+		}
 }
 
 #columnWrap {
@@ -173,7 +208,7 @@ a {
 	width: 31%;
 	margin: 1.306em 0.618em;
 	float: left;
-	padding: 0.618em 1.306em 1.306em;
+	padding: 0.618em 1.306em 1em;
 	border: 1px solid $darkColor;
 	background-color: rgba(255,255,255,0.78);
 		h3 {
@@ -187,6 +222,9 @@ a {
 		}
 		img {
 			width: 100%;
+		}
+		p {
+			height: 21.313em;
 		}
 }
 
