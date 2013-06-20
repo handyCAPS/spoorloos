@@ -3,8 +3,12 @@
 <head>
 	<title>
 		<?php 
-		wp_title( ' | ', true, 'right' );
-		?>
+		if (!is_home()){
+			bloginfo('name'); 	wp_title( ' | ', true, 'left' );	
+		} else {
+		the_title(); echo " | "; bloginfo('name');
+	}
+	?>
 	</title>
 	
 	<link rel="stylesheet" type="text/css" href="<?php echo SPOORWEG; ?>/style.css">
@@ -17,6 +21,9 @@
 	<![endif]--> 
 	<!--[if IE lt9]>
 	<script type="text/javascript" src="<?php echo SPOORWEG ?>/js/html5shiv.js"></script>
+	<![endif]-->
+	<!--[if IE lt8]>
+	<link rel="stylesheet" type="text/css" href="<?php echo SPOORWEG; ?>/fonts/font-awesome/css/font-awesome-ie7.min.css">
 	<![endif]-->
 <?php wp_head(); ?>
 </head>
@@ -44,4 +51,4 @@
 						'walker'          => '' ) );
 				 ?>
 			</div><!--  end headerNavWrap  -->
-			<div id="logo"><h1><a href="#"><img src="<?php echo SPOORWEG ?>/images/logo.png"></a></h1></div><!--  end logo  -->
+			<div id="logo"><h1><a href="<?php bloginfo('url'); ?>"><img src="<?php echo SPOORWEG ?>/images/logo.png"></a></h1></div><!--  end logo  -->

@@ -8,9 +8,11 @@
 		wp_register_style( 'normalize', SPOORWEG . '/stylesheets/normalize.css', 'all' );
 		wp_register_style( 'print', SPOORWEG . '/stylesheets/print.css', 'print' );
 		wp_register_style( 'screen', SPOORWEG . '/stylesheets/screen.css', 'screen' );
-		wp_register_style( 'google_fonts', 'http://fonts.googleapis.com/css?family=Open+Sans', 'all' );
+		wp_register_style( 'google_fonts', 'http://fonts.googleapis.com/css?family=Open+Sans|Noto+Serif', 'all' );
+		wp_register_style( 'font_awesome', SPOORWEG . '/fonts/font-awesome/css/font-awesome.min.css', 'all' );
 
 		wp_enqueue_style( 'google_fonts' );
+		wp_enqueue_style( 'font_awesome' );
 		wp_enqueue_style( 'normalize' );
 		wp_enqueue_style( 'print' );
 		wp_enqueue_style( 'screen' );
@@ -112,8 +114,8 @@
 			'description'		=> 'De sidebar op pagina\'s',
 			'before_widget'	=> '<div class="sidebar_page">',
 			'after_widget'		=> "</div>",
-			'before_title'		=> '<h3 class="sidebar_title ribbon">',
-			'after_title'		=> "</h3>"
+			'before_title'		=> '<h3 class="sidebar_title ribbon"><span class="ribbon-content">',
+			'after_title'		=> "</span></h3>"
 			)	
 		);
 

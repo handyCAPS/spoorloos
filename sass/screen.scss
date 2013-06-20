@@ -15,6 +15,7 @@ body {
 	font-size: $fontbase;
 	font-family: $sans;
 	background: url('../images/chruch.png');
+	text-rendering: optimizeLegibility;
 }
 
 header {
@@ -23,8 +24,40 @@ header {
 	background-size: cover;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: $headerFont;
+}
+
+h1 {
+	font-size: 2.618em;
+}
+
+h2 {
+	font-size: 1.618em;
+}
+
+h3 {
+	font-size: 1.304em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 0.807em;
+}
+
+h6 {
+	font-size: 0.618em;
+}
+
 hr {
 	opacity: 0.6;
+}
+
+#logo {
+	max-width: 250px;
 }
 
 a {
@@ -182,7 +215,7 @@ a {
 		h2 {
 			margin: 0;
 		}
-		h3 {
+		h3:first-of-type {
 			margin-top: 0;
 		}
 		ul {
@@ -226,6 +259,48 @@ a {
 		p {
 			height: 21.313em;
 		}
+}
+
+#sidebarPageWrap {
+	background-color: $white;
+	width: 29%;
+	float: right;
+	padding: 0.618em;
+	margin-left: 1.618em;
+		h3 {
+			background-color: darken($middleColor, 16);
+			color: $white;
+			border: 1px solid $darkColor;
+			padding: 0.236em 0.236em 0.236em 1.618em;
+			width: 88%;
+			left: -1.306em;
+			-webkit-box-shadow: 0px 5px 4px -5px black;
+			box-shadow: 0px 5px 4px -5px black;
+		}
+}
+
+.ribbon {
+  	position: relative;
+}
+
+.ribbon:before {
+	 left: -3em;
+	 border-right-width: 1em;
+	 border-left-color: transparent;
+}
+
+.ribbon .ribbon-content:before {
+	 content: "";
+	 position: absolute;
+	 display: block;
+	 border-style: solid;
+	 border-color: $darkColor transparent transparent transparent;
+	 bottom: -1em;
+	 z-index: -1;
+}
+.ribbon .ribbon-content:before {
+	 left: 0;
+	 border-width: 1em 0 0 1em;
 }
 
 footer p {
