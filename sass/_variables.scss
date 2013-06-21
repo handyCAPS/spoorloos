@@ -4,7 +4,7 @@
 $fontbase: 16px;
 
 $sans: 'Open Sans', sans-serif;
-$headerFont: 'Noto Serif', sans-serif;
+$headerFont: 'Cardo', sans-serif;
 
 
 	// Colors
@@ -13,18 +13,22 @@ $hue1: 195;
 $hue2: 30;
 $overlayOpacity: 0.7;
 
-$white: #FFF;
+$white: #FFFFFF; 
 
 $darkColor:  hsl($hue1, 85%, 25%);
 $darkColorOverlay:  hsla($hue1, 85%, 25%, $overlayOpacity);
+$darkColorHex: #0a5b76;
 $middleColor:  hsl($hue1, 68%, 68%);
 $middleColorOverlay:  hsla($hue1, 85%, 60%, $overlayOpacity);
+$middleColorHex: #76c9e5;
 $lightColor: hsl($hue1, 85%, 86%);
 $lightColorOverlay:  hsla($hue1, 85%, 91%, $overlayOpacity);
+$lightColorHex: #bdeafa;
 $contrastColor:  hsl($hue2, 85%, 68%);
 $contrastColorOverlay:  hsla($hue1, 85%, 42%, $overlayOpacity);
 
 $linkColor: $darkColor;
+$linkColorHex: $darkColorHex;
 
 @mixin rolloverSize {
 	width: 200px;

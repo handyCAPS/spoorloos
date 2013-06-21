@@ -239,7 +239,7 @@
 			"file": "sass/screen.scss",
 			"settings":
 			{
-				"buffer_size": 3159,
+				"buffer_size": 3574,
 				"line_ending": "Windows"
 			}
 		},
@@ -255,7 +255,7 @@
 			"file": "spoorXI/index.php",
 			"settings":
 			{
-				"buffer_size": 4871,
+				"buffer_size": 2573,
 				"line_ending": "Windows"
 			}
 		},
@@ -263,23 +263,7 @@
 			"file": "spoorXI/header.php",
 			"settings":
 			{
-				"buffer_size": 1107,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "spoorXI/footer.php",
-			"settings":
-			{
-				"buffer_size": 317,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "spoorXI/sidebar.php",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 1515,
 				"line_ending": "Windows"
 			}
 		},
@@ -287,7 +271,15 @@
 			"file": "spoorXI/page.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 516,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "spoorXI/sidebar.php",
+			"settings":
+			{
+				"buffer_size": 191,
 				"line_ending": "Windows"
 			}
 		},
@@ -295,7 +287,15 @@
 			"file": "spoorXI/functions.php",
 			"settings":
 			{
-				"buffer_size": 1548,
+				"buffer_size": 3631,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "spoorXI/sidebar-page.php",
+			"settings":
+			{
+				"buffer_size": 74,
 				"line_ending": "Windows"
 			}
 		}
@@ -396,6 +396,13 @@
 	},
 	"file_history":
 	[
+		"/C/users/tim/appdata/local/temp/sublime-sftp-browse-1371667892/ictlab/domains/ictlab.info/htdocs/sporenonderzoek/wp-content/themes/spoorXI/stylesheets/screen.css",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/ictlab",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/stylesheets/screen.css",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/spoorXI/footer.php",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/spoorXI/page.php",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/stylesheets/print.css",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/spoorXI/sidebar-frontpage.php",
 		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/index.php",
 		"/C/Users/Tim/SiteMap2/ict-lab/functions.php",
 		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/wp-config.php",
@@ -516,11 +523,7 @@
 		"/C/Users/Tim/SiteMap2/iCTlab_frame/sass/partials/_base.scss",
 		"/C/Users/Tim/SiteMap2/iCTlab_frame/sass/partials/_scale.scss",
 		"/C/Users/Tim/SiteMap2/iCTlab_frame/sass/partials/_page.scss",
-		"/C/Users/Tim/SiteMap2/iCTlab_frame/index.html",
-		"/C/Users/Tim/SiteMap2/iCTlab_frame/sass/partials/_mixins.scss",
-		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Tim/SiteMap2/compass/compass/TODO.md",
-		"/C/Users/Tim/SiteMap2/compass/compass/examples/compass/bootstrap.rb"
+		"/C/Users/Tim/SiteMap2/iCTlab_frame/index.html"
 	],
 	"find":
 	{
@@ -538,6 +541,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"618",
+			"1.",
+			"true",
+			"<?php",
+			"?>",
 			"true",
 			"false",
 			"s",
@@ -613,7 +621,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -645,7 +653,8 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -658,15 +667,15 @@
 					"file": "sass/screen.scss",
 					"settings":
 					{
-						"buffer_size": 3159,
+						"buffer_size": 3574,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								679,
-								679
+								2922,
+								2922
 							]
 						],
 						"settings":
@@ -679,7 +688,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 767.0,
+						"translation.y": 5511.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -719,7 +728,7 @@
 					"file": "spoorXI/index.php",
 					"settings":
 					{
-						"buffer_size": 4871,
+						"buffer_size": 2573,
 						"regions":
 						{
 							"TagLint":
@@ -729,8 +738,8 @@
 								"regions":
 								[
 									[
-										2699,
-										2708
+										2455,
+										2464
 									]
 								],
 								"scope": "variable.parameter"
@@ -739,72 +748,8 @@
 						"selection":
 						[
 							[
-								1365,
-								1365
-							],
-							[
-								1972,
-								1972
-							],
-							[
-								2573,
-								2573
-							],
-							[
-								3343,
-								3343
-							],
-							[
-								4014,
-								4014
-							],
-							[
-								4693,
-								4693
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2211.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "spoorXI/header.php",
-					"settings":
-					{
-						"buffer_size": 1107,
-						"regions":
-						{
-							"TagLint":
-							{
-								"flags": 52,
-								"icon": "dot",
-								"regions":
-								[
-									[
-										722,
-										742
-									]
-								],
-								"scope": "variable.parameter"
-							}
-						},
-						"selection":
-						[
-							[
-								205,
-								205
+								2542,
+								2542
 							]
 						],
 						"settings":
@@ -823,11 +768,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "spoorXI/footer.php",
+					"buffer": 4,
+					"file": "spoorXI/header.php",
 					"settings":
 					{
-						"buffer_size": 317,
+						"buffer_size": 1515,
 						"regions":
 						{
 							"TagLint":
@@ -837,8 +782,8 @@
 								"regions":
 								[
 									[
-										153,
-										159
+										650,
+										670
 									]
 								],
 								"scope": "variable.parameter"
@@ -847,8 +792,8 @@
 						"selection":
 						[
 							[
-								184,
-								184
+								116,
+								116
 							]
 						],
 						"settings":
@@ -857,7 +802,39 @@
 							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "spoorXI/page.php",
+					"settings":
+					{
+						"buffer_size": 516,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								423,
+								423
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -870,20 +847,21 @@
 					"file": "spoorXI/sidebar.php",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 191,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								155,
+								155
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
+							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage"
@@ -896,47 +874,18 @@
 				},
 				{
 					"buffer": 7,
-					"file": "spoorXI/page.php",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
 					"file": "spoorXI/functions.php",
 					"settings":
 					{
-						"buffer_size": 1548,
+						"buffer_size": 3631,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1306,
-								1306
+								3339,
+								3339
 							]
 						],
 						"settings":
@@ -946,10 +895,41 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 288.0,
+						"translation.y": 3881.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "spoorXI/sidebar-page.php",
+					"settings":
+					{
+						"buffer_size": 74,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

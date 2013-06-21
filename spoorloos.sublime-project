@@ -2,7 +2,10 @@
 	"folders":
 	[
 		{
-			"path": "/C/Users/Tim/SiteMap2/spoorloos_rebuild"
+			"path": "/C/Users/Tim/SiteMap2/spoorloos_rebuild",
+			"path": "/C/Users/Tim/SiteMap2/spoorloos_rebuild/stylesheets",
+			"path": "/C/Users/Tim/SiteMap2/spoorloos_rebuild/sass",
+			"path": "/C/Users/Tim/SiteMap2/spoorloos_rebuild/js"
 		}
 	]
 }
