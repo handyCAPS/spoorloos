@@ -3,10 +3,14 @@
 <head>
 	<title>
 		<?php 
-		if (!is_home()){
-			bloginfo('name'); 	wp_title( ' | ', true, 'left' );	
-		} else {
-		the_title(); echo " | "; bloginfo('name');
+		if (is_home() && !is_page()){
+			bloginfo('name'); echo " | "; the_title();
+		}
+		elseif (is_home() && is_page()) {
+			bloginfo('name'); wp_title( ' | ', true, 'left' );
+			}	
+		else {
+			  wp_title( ' | ', true, 'right' );	bloginfo('name');
 	}
 	?>
 	</title>

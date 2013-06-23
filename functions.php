@@ -21,12 +21,12 @@
 	add_action( 'wp_enqueue_scripts', 'spoorxi_styles' );
 
 	function spoorxi_scripts() {
-		wp_register_script( 'jquerylocal', SPOORWEG . '/js/jquery.min.js', array(),"false", 'true' );
-		wp_register_script( 'jqueryui', SPOORWEG . '/js/jquery.ui.js', array(), "false", 'true' );
-		wp_register_script( 'pin', SPOORWEG . '/js/jquery.pin.js', array(), "false", 'true' );
-		wp_register_script( 'scrollto', SPOORWEG . '/js/scrollTo.js', array(), "false", 'true' );
-		wp_register_script( 'localscroll', SPOORWEG . '/js/localScroll.js', array(), "false", 'true' );
-		wp_register_script( 'spoorinit', SPOORWEG . '/js/spoorInit.js', array(), "false", 'true' );
+		wp_register_script( 'jquerylocal', SPOORWEG . '/js/jquery.min.js', array(),'1.10', true );
+		wp_register_script( 'jqueryui', SPOORWEG . '/js/jquery.ui.js', array(), '1.10.3', true );
+		wp_register_script( 'pin', SPOORWEG . '/js/jquery.pin.js', array(), false, true );
+		wp_register_script( 'scrollto', SPOORWEG . '/js/scrollTo.js', array(), false, true );
+		wp_register_script( 'localscroll', SPOORWEG . '/js/localScroll.js', array(), false, true );
+		wp_register_script( 'spoorinit', SPOORWEG . '/js/spoorInit.js', array(), false, true );
 
 		wp_enqueue_script( 'jquerylocal' );
 		wp_enqueue_script( 'jqueryui' );
