@@ -19,17 +19,13 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 	<meta name='description' content="<?php bloginfo('description'); ?>">
 	<meta charset="utf-8">
-	<!--[if IE lt8]>
-	<link rel="stylesheet" type="text/css" href="<?php echo SPOORWEG; ?>/fonts/font-awesome/css/font-awesome-ie7.min.css">
-	<![endif]-->
-	<!--[if IE lt9]>
+
+	<!--[if lt IE 9]>
 	<script type="text/javascript" src="<?php echo SPOORWEG ?>/js/html5shiv.js"></script>
-	<![endif]-->
-	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="<?php echo SPOORWEG; ?>/fonts/font-awesome/css/font-awesome-ie7.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo SPOORWEG ?>/stylesheets/ie.css">
-	<![endif]--> 
-	
-	
+	<![endif]-->
+
 <?php wp_head(); ?>
 </head>
 <body>

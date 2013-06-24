@@ -1,0 +1,22 @@
+<a href="https://maps.google.nl/maps?q=koperweg+11c+alphen+aan+den+rijn&ie=UTF-8&hq=&hnear=0x47c5db1f3936b02d:0x6e60f3a63cc1aecd,Koperweg+11C,+2401+LH+Alphen+aan+den+Rijn&gl=nl&ei=x4zIUcC0DIfoswbO5YCwDw&ved=0CC8Q8gEwAA"><img class="right google_map" alt="" src="http://maps.googleapis.com/maps/api/staticmap?center=52.146763,4.647385&amp;markers=koperweg+11c+alphen+aan+den+rijn&amp;zoom=14&amp;size=360x240&amp;sensor=false" /></a>
+Vraag naar : Wouter of Rabia
+
+<i class="icon-phone"></i> 0172-243417
+
+Spoor 11
+Koperweg 11c
+2401 LH
+Alphen aan den Rijn
+
+
+Heeft u vragen of wilt u dat wij contact met u opnemen ? Vul dan dit formulier in en wij bellen of mailen of zo snel mogelijk terug. <span class="verplicht_veld">Velden met een <i class="icon-hand-left"></i> zijn verplicht.</span>
+<form class="contactForm">
+<fieldset>
+<div class="input-prepend"><span class="add-on"><i class="icon-user"></i></span><input class="span2" type="text" name="naam" placeholder="Naam ..." autofocus required/><i class="icon-hand-left"></i></div>
+<div class="input-prepend"><span class="add-on"><i class="icon-envelope"></i></span><input class="span2" type="email" name="email" placeholder="Email ..." required/><i class="icon-hand-left"></i></div>
+<div class="input-prepend"><span class="add-on"><i class="icon-phone"></i></span><input class="span2" type="text" name="telnummer" placeholder="Telefoonnummer ..." /></div>
+<div class="input-prepend"><span class="add-on"><i class="icon-tags"></span></i><input class="span2" type="text" name="onderwerp" placeholder="Onderwerp ..." /></div>
+<div class="input-prepend"><span class="add-on"><i class="icon-keyboard"></i></span><textarea class="span2" cols="30" name="bericht" placeholder="Uw bericht ..." rows="5" required></textarea><i class="icon-hand-left"></i></div>
+<div class="button_wrap"><i class="icon-rotate-left before_button"></i><input type="reset" value="Reset" /></div>
+<div class="button_wrap"><i class="icon-share-sign before_button"></i><input type="submit" value="Verstuur" /></div></fieldset>
+</form>

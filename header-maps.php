@@ -20,27 +20,12 @@
 	<meta name='description' content="<?php bloginfo('description'); ?>">
 	<meta charset="utf-8">
 
-	<!--[if IE lt8]>
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="<?php echo SPOORWEG ?>/js/html5shiv.js"></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo SPOORWEG ?>/stylesheets/ie.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo SPOORWEG; ?>/fonts/font-awesome/css/font-awesome-ie7.min.css">
 	<![endif]-->
-	<!--[if IE lt9]>
-	<script type="text/javascript" src="<?php echo SPOORWEG ?>/js/html5shiv.js"></script>
-	<![endif]-->
-	<!--[if IE]>
-	<link rel="stylesheet" type="text/css" href="<?php echo SPOORWEG ?>/stylesheets/ie.css">
-	<![endif]--> 
-	<script type="text/javascript">
-		function initialize() {
-		var mapOptions = {
-		center: new google.maps.LatLng(52.146776,4.647342),
-		zoom: 8,
-		mapTypeId: google.maps.MapTypeId.ROADMAP
-		};
-		var map = new google.maps.Map(document.getElementById("map-canvas"),
-		mapOptions);
-		}
-		google.maps.event.addDomListener(window, 'load', initialize);
-	</script>
+
 <?php wp_head(); ?>
 </head>
 <body>
