@@ -47,26 +47,32 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 2.618em;
+	color: $headerColor;
 }
 
 h2 {
 	font-size: 1.618em;
+	color: darken($headerColor, 26);
 }
 
 h3 {
 	font-size: 1.304em;
+	color: $headerColor;
 }
 
 h4 {
-	font-size: 1em;
+	font-size: 1.191em;
+	color: $headerColor;
 }
 
 h5 {
 	font-size: 0.807em;
+	color: $headerColor;
 }
 
 h6 {
 	font-size: 0.618em;
+	color: $headerColor;
 }
 
 hr {
@@ -108,6 +114,15 @@ fieldset {
 
 .right {
 	float: right;
+}
+
+img {
+		&.left {
+			margin: 0em 1em 0.618em 0;
+		}
+		&.right {
+			margin: 0em 0 0.618em 1em;
+		}
 }
 
 .lees_meer a {
@@ -187,6 +202,9 @@ fieldset {
 							color: $white;
 							padding: 0;
 							margin: 0;
+						}
+						li {
+							display: none;
 						}
 				}
 		}
@@ -286,8 +304,13 @@ fieldset {
 	background-color: $white;
 	width: 68%;
 	padding: 1em;
+	overflow: hidden;
 		h2 {
 			margin: 0;
+			background-color: $lightColor;
+			padding: 0.308em 0.191em 0.191em 1.618em;
+			width: 41.8%;
+			margin-left: -1.618em;
 		}
 		h3:first-of-type {
 			margin-top: 0;
@@ -452,8 +475,15 @@ fieldset {
 								text-shadow: 0px 0.6px 1.2px $lightColor;
 							}
 					}
+					li {
+						display: none;
+					}
 				}
 		}		
+}
+
+.menu-zijmenu-deelnemers-container {
+	@extend .menu-hoofdmenu-container;
 }
 
 .ribbon {

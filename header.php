@@ -16,6 +16,7 @@
 	</title>
 	
 	<link rel="stylesheet" type="text/css" href="<?php echo SPOORWEG; ?>/style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="<?php echo SPOORWEG; ?>/favicon.ico">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 	<meta name='description' content="<?php bloginfo('description'); ?>">
 	<meta charset="utf-8">
