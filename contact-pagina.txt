@@ -1,4 +1,4 @@
-<a href="https://maps.google.nl/maps?q=koperweg+11c+alphen+aan+den+rijn&ie=UTF-8&hq=&hnear=0x47c5db1f3936b02d:0x6e60f3a63cc1aecd,Koperweg+11C,+2401+LH+Alphen+aan+den+Rijn&gl=nl&ei=x4zIUcC0DIfoswbO5YCwDw&ved=0CC8Q8gEwAA"><img class="right google_map" alt="" src="http://maps.googleapis.com/maps/api/staticmap?center=52.146763,4.647385&amp;markers=koperweg+11c+alphen+aan+den+rijn&amp;zoom=14&amp;size=360x240&amp;sensor=false" /></a>
+<a href="https://maps.google.nl/maps?q=koperweg+11c+alphen+aan+den+rijn&ie=UTF-8&hq=&hnear=0x47c5db1f3936b02d:0x6e60f3a63cc1aecd,Koperweg+11C,+2401+LH+Alphen+aan+den+Rijn&gl=nl&ei=x4zIUcC0DIfoswbO5YCwDw&ved=0CC8Q8gEwAA" target="_blank"><img class="right google_map" alt="" src="http://maps.googleapis.com/maps/api/staticmap?center=52.146763,4.647385&amp;markers=koperweg+11c+alphen+aan+den+rijn&amp;zoom=14&amp;size=360x240&amp;sensor=false" /></a>
 Vraag naar : Wouter of Rabia
 
 <i class="icon-phone"></i> 0172-243417

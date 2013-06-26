@@ -222,6 +222,7 @@ img {
 	background-color: $darkColorOverlay;
 	padding: 0.618em 1.306em;
 		h2 {
+			color: $white;
 			padding: 0;
 			margin: 0;
 		}
@@ -306,10 +307,10 @@ img {
 	padding: 1em;
 	overflow: hidden;
 		h2 {
+			display: inline-block;
 			margin: 0;
 			background-color: $lightColor;
-			padding: 0.308em 0.191em 0.191em 1.618em;
-			width: 41.8%;
+			padding: 0.308em 0.618em 0.191em 1.618em;
 			margin-left: -1.618em;
 		}
 		h3:first-of-type {
