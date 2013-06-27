@@ -140,11 +140,29 @@
 						
 	}
 
+	function sidebar_page_ictlab() {
+
+		$args = ( array( 
+			'name'			=> 'ICT-Lab',
+			'id'			=> 'page_bar_ictlab',
+			'description'		=> 'De sidebar op ictlab pagina',
+			'before_widget'	=> '<div class="sidebar_page">',
+			'after_widget'		=> "</div>",
+			'before_title'		=> '<h3 class="sidebar_title ribbon"><span class="ribbon-content">',
+			'after_title'		=> "</span></h3>"
+			)	
+		);
+
+		register_sidebar( $args );
+						
+	}
+
 	add_action('widgets_init', 'sidebar_leftColumn');
 	add_action('widgets_init', 'sidebar_middleColumn');
 	add_action('widgets_init', 'sidebar_rightColumn');
 	add_action('widgets_init', 'sidebar_page');
 	add_action('widgets_init', 'sidebar_page_deelnemers');
+	add_action('widgets_init', 'sidebar_page_ictlab');
 
 
 

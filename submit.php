@@ -40,9 +40,14 @@
 	// Het adres waar de mail vandaan komt
 	$headers = 'From: ' . $email  . "\r\n";
 	// Het adres waar de mail naartoe gestuurd word
-	$to = 'info@timdoppenberg.nl';
+	$to = 'timd@ictlab.info';
 
-	$message = $naam . ' stuurde op ' . $datum . ' om ' . $tijd . ' het volgende bericht: ' . "<br/>" . $bericht;
+	$message = //$naam . ' stuurde op ' . $datum . ' om ' . $tijd . ' het volgende bericht: ' . "<br/>" . $bericht;
+		"<h1>Een reactie van de Spoor 11 website !</h1>
+		<h2>{$naam}</h2>
+		<h3>{$subject}</h3>
+		<p>{$bericht}</p><br/>
+		" . $datum . " " .  $tijd;
 
 
 

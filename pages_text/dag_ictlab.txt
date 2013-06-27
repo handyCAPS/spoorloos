@@ -1,0 +1,9 @@
+<img class="left" src="http://placecage.com/c/240/320" alt="placeholder" />
+<h3>Wat doen we zoal bij het ICT-Lab ?</h3>
+<p>Een gemiddelde dag bij het ICT-Lab ziet er voor iedereen anders uit. We laten wat mensen aan het woord die hun dag beschrijven zodat je een idee krijgt van wat je bij ons kan verwachten.</p>
+<img class="right" src="http://placecage.com/c/340/240" alt="placeholder" />
+<h4 class="special">Tim, webdesign</h4>
+<p>"Mijn dag begint altijd met koffie en een rondje goedemorgen zeggen. Daarna zet ik een computer aan en kijk ik of er nog mail is. Na een heerlijke tosti van Bjorn en een hoop geklets is het tijd om aan het werk te gaan. Ik maak websites met Wordpress, een programma waarmee je vanuit je browser de inhoud van je website kunt veranderen. Je hebt weinig kennis nodig om een mooie Wordpress site in elkaar te ztten, maar hoe meer je kunt, hoe meer je eruit kunt halen.</p>
+<img class="left" src="http://placecage.com/c/300/380" alt="placeholder" /> 
+<p>Inmiddels ben ik aardig bekend met de code achter Wordpress, dus ik schrijf mijn sites met behulp van HTML, CSS, Javascript en PHP. Deze technieken heb ik allemaal in mijn tijd bij het ICT-Lab geleerd, een jaar geleden durfde ik mijn computer niet eens open te maken. Als ik mijn code editor even zat ben probeer ik mee te leren met Kim, die de meeste computer reparaties bij ons doet. Dat is het fijne aan het ICT-Lab, er zijn mensen met kennis van allerlei ict gebieden. Je kunt je dus heel breed oriënteren en als je een lastige vraag hebt, is er meestal wel iemand die het antwoord weet.</p> 
+<p>Naast het werken aan nieuwe sites besteed ik ook veel tijd aan het leren van nieuwe technieken. De opdrachten die we van onze klanten krijgen zijn de perfecte mogelijkheid om die technieken te oefenen."</p>

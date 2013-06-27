@@ -25,7 +25,16 @@ Template Name: Deelnemers
 			<?php endif; ?>
 		</div><!--  end pageWrap  -->
 
-		<?php get_sidebar('deelnemers'); ?>
+		<?php 
+		$post_name = strtolower(get_the_title($post));
+		switch ($post_name) {
+
+			case 'ict-lab' :
+				get_sidebar( 'ictlab' );
+				break;
+			default : get_sidebar( 'deelnemers' );
+		}
+		?>
 
 	</div><!--  end mainContent  -->
 
