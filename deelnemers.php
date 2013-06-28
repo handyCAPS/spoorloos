@@ -27,7 +27,14 @@ Template Name: Deelnemers
 
 		<?php 
 		$post_name = strtolower(get_the_title($post));
+		$post_parent = strtolower(get_the_title( $post->post_parent ));
 		switch ($post_name) {
+
+			case 'ict-lab' :
+				get_sidebar( 'ictlab' );
+				break;
+		}
+		switch ($post_parent) {
 
 			case 'ict-lab' :
 				get_sidebar( 'ictlab' );

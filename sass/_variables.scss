@@ -5,6 +5,7 @@ $fontbase: 16px;
 
 $sans: 'Open Sans', sans-serif;
 $headerFont: 'Cardo', sans-serif;
+$handWriting: 'Permanent Marker', sans-serif;
 
 
 	// Colors
@@ -15,6 +16,7 @@ $hue3: 13;
 $overlayOpacity: 0.7;
 
 $white: #FFFFFF; 
+$black: #000000;
 
 $darkColor:  hsl($hue1, 85%, 25%);
 $darkColorOverlay:  hsla($hue1, 85%, 25%, $overlayOpacity);
@@ -22,10 +24,12 @@ $darkColorHex: #0a5b76;
 $middleColor:  hsl($hue1, 68%, 68%);
 $middleColorOverlay:  hsla($hue1, 85%, 60%, $overlayOpacity);
 $middleColorHex: #76c9e5;
+$middleColorSat: hsl($hue1, 41%, 51%);
+$middleColorSatHex: #4E9CB5;
 $lightColor: hsl($hue1, 85%, 86%);
 $lightColorOverlay:  hsla($hue1, 85%, 91%, $overlayOpacity);
 $lightColorHex: #bdeafa;
-$contrastColor:  hsl($hue2, 35%, 26%);
+$contrastColor:  hsl($hue3, 85%, 46%);
 $contrastColorOverlay:  hsla($hue2, 35%, 42%, $overlayOpacity);
 
 $linkColor: $darkColor;

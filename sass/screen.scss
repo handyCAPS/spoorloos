@@ -118,10 +118,10 @@ fieldset {
 
 img {
 		&.left {
-			margin: 1em 1em 0.618em 0;
+			margin: 0.308em 1em 0.618em 0;
 		}
 		&.right {
-			margin: 1em 0 0.618em 1em;
+			margin: 0.308em 0 0.618em 1em;
 		}
 }
 
@@ -129,9 +129,18 @@ p>img:first-of-type {
 	margin-top: 0;
 }
 
+h4.special {
+	color: darken($darkColorHex, 6);
+	background-color: $middleColorSat;
+	display: inline-block;
+	padding: 0.308em 0.618em 0.308em;
+	margin: 0.308em 0;
+	font-family: $handWriting;
+}
+
 .lees_meer a {
 	color: $lightColor;
-	text-shadow: 0.2px 0.4px 0.3px black;
+	text-shadow: 0.2px 0.4px 0.3px $black;
 }
 
 .current-menu-item a {
@@ -174,7 +183,7 @@ p>img:first-of-type {
 }
 
 #headerNav {
-	background: black;
+	background: $black;
 	min-width: 15%;
 	float: right;
 	margin: 1.306em 0 0;
@@ -187,17 +196,17 @@ p>img:first-of-type {
 					float: left;
 					margin: 0.238em 0.618em;
 					padding: 0 0.238em;
-					text-shadow: 0px 0px 0px black;
+					text-shadow: 0px 0px 0px $black;
 					-webkit-transition: all 0.86s ease 0.2s;
 					transition: all 0.86s ease 0.2s;
 						&:hover {
 							background-color: $middleColorOverlay;
 							-webkit-box-shadow: 0px 0px 0px 0.618em $middleColorOverlay;
 							box-shadow: 0px 0px 0px 0.618em $middleColorOverlay;
-							text-shadow: 0.6px 0.4px 0.6px black;
+							text-shadow: 0.6px 0.4px 0.6px $black;
 						}
 						&.current-menu-item {
-							background-color: black;
+							background-color: $black;
 							-webkit-box-shadow: none;
 							box-shadow: none;
 						}
@@ -448,8 +457,8 @@ p>img:first-of-type {
 			padding: 0.308em 0.236em 0.191em 1.618em;
 			width: 88%;
 			left: -1.191em;
-			-webkit-box-shadow: 0px 5px 4px -5px black;
-			box-shadow: 0px 5px 4px -5px black;
+			-webkit-box-shadow: 0px 5px 4px -5px $black;
+			box-shadow: 0px 5px 4px -5px $black;
 		}
 }
 
