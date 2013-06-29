@@ -167,6 +167,40 @@ h4.special {
 	margin: 0 0.618em 0.618em 1em;
 }
 
+.peel_wrap {
+	position: relative;
+	min-width: 10em;
+	// height: 20px;
+	display: inline-block;
+}
+
+.peeled {
+	font-family: $handWriting;
+	font-size: 1.308em;
+	position: relative;
+	background-color: $middleColorSat;
+	padding: 0.4em 1em;
+	border-radius: 0px 4px 4px 0px;
+}
+
+.peeled:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 76%;
+	right: 11px;
+	bottom: 15px; 
+	width: 50%;
+	-webkit-box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.7);
+	box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.7);
+	-webkit-transform: rotate(4.5deg);
+	-moz-transform: rotate(4.5deg);
+	-o-transform: rotate(4.5deg);
+	-ms-transform: rotate(4.5deg);
+	transform: rotate(4.5deg);
+}
+
+
 #outerWrap {
 	width: 90%;
 	margin: 0 auto;
@@ -318,7 +352,6 @@ h4.special {
 	background-color: $white;
 	width: 68%;
 	padding: 1em;
-	overflow: hidden;
 		h2 {
 			display: inline-block;
 			margin: 0;
@@ -462,7 +495,7 @@ h4.special {
 		}
 }
 
-.menu-hoofdmenu-container {
+#sidebarPageWrap {
 
 		ul {
 			list-style: none;
@@ -496,14 +529,6 @@ h4.special {
 		}		
 }
 
-.menu-zijmenu-deelnemers-container {
-	@extend .menu-hoofdmenu-container;
-}
-
-.menu-zijmenu-ict-lab-container {
-	@extend .menu-hoofdmenu-container;
-}
-
 .ribbon {
   	position: relative;
 }
@@ -527,6 +552,14 @@ h4.special {
 	 left: 0;
 	 border-width: 1em 0 0 1em;
 }
+
+.ict_projecten #slider {
+	height: 300px;
+}
+
+.nivo-control {
+			margin: 0 0.308em;
+		}
 
 footer p {
 	text-align: center;
