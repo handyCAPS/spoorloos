@@ -33,13 +33,27 @@ Template Name: Deelnemers
 			case 'ict-lab' :
 				get_sidebar( 'ictlab' );
 				break;
-		}
-		switch ($post_parent) {
-
-			case 'ict-lab' :
-				get_sidebar( 'ictlab' );
+			case 'kinderboerderij' :
+				get_sidebar( 'kinderboerderij' );
 				break;
-			default : get_sidebar( 'deelnemers' );
+			case 'aan de slag' :
+				get_sidebar( 'aandeslag' );
+				break;
+		    default:
+	    		switch ($post_parent) {
+
+				case 'ict-lab' :
+					get_sidebar( 'ictlab' );
+					break;
+				case 'kinderboerderij' :
+					get_sidebar( 'kinderboerderij' );
+					break;
+				case 'aan de slag' :
+					get_sidebar( 'aandeslag' );
+					break;
+
+				default : get_sidebar( 'deelnemers' );
+			}
 		}
 		?>
 

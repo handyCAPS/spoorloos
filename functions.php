@@ -145,7 +145,41 @@
 		$args = ( array( 
 			'name'			=> 'ICT-Lab',
 			'id'			=> 'page_bar_ictlab',
-			'description'		=> 'De sidebar op ictlab pagina',
+			'description'		=> 'De sidebar op ictlab paginas',
+			'before_widget'	=> '<div class="sidebar_page">',
+			'after_widget'		=> "</div>",
+			'before_title'		=> '<h3 class="sidebar_title ribbon"><span class="ribbon-content">',
+			'after_title'		=> "</span></h3>"
+			)	
+		);
+
+		register_sidebar( $args );
+						
+	}
+
+	function sidebar_page_kinderboerderij() {
+
+		$args = ( array( 
+			'name'			=> 'Kinderboerderij',
+			'id'			=> 'page_bar_kinderboerderij',
+			'description'		=> 'De sidebar op kinderboerderij paginas',
+			'before_widget'	=> '<div class="sidebar_page">',
+			'after_widget'		=> "</div>",
+			'before_title'		=> '<h3 class="sidebar_title ribbon"><span class="ribbon-content">',
+			'after_title'		=> "</span></h3>"
+			)	
+		);
+
+		register_sidebar( $args );
+						
+	}
+
+	function sidebar_page_aandeslag() {
+
+		$args = ( array( 
+			'name'			=> 'Aan De Slag',
+			'id'			=> 'page_bar_aandeslag',
+			'description'		=> 'De sidebar op Aan De Slag paginas',
 			'before_widget'	=> '<div class="sidebar_page">',
 			'after_widget'		=> "</div>",
 			'before_title'		=> '<h3 class="sidebar_title ribbon"><span class="ribbon-content">',
@@ -163,6 +197,8 @@
 	add_action('widgets_init', 'sidebar_page');
 	add_action('widgets_init', 'sidebar_page_deelnemers');
 	add_action('widgets_init', 'sidebar_page_ictlab');
+	add_action('widgets_init', 'sidebar_page_kinderboerderij');
+	add_action('widgets_init', 'sidebar_page_aandeslag');
 
 	remove_filter ('the_content',  'wpautop');
 
