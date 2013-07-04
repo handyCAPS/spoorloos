@@ -1,0 +1,29 @@
+@media screen and (max-width: 810px) {
+
+	#mainContent {
+		width: 100%;
+	}
+	#pageWrap {
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+			h2 {
+				margin: 0 auto;
+				padding: 0.308em 0.618em 0.191em 0.618em;
+			}
+	}
+	#sidebarPageWrap {
+		float: none;
+		width: 90%;
+		margin: 0 auto;
+		border-top: 1px solid $darkColor;
+	}
+	#logo {
+		position: relative;
+		left: 1.618em;
+		top: 0em;
+	}
+	#headerNavWrap nav:first-of-type {
+		display: none;
+	}
+}

@@ -36,14 +36,16 @@ var spoorInit = function() {
 		var sidebar = $('#sidebarPageWrap');
 		var pageHeight = $(window).height();
 		var sidebarHeight = $(sidebar).height();
-		if ( sidebarHeight < pageHeight ) {
+		var pageWidth = $(window).width();
+		if ( sidebarHeight < pageHeight && pageWidth > 810 ) {
 			$(sidebar).addClass( 'pinned' );
+			$('.pinned').pin();
 		}
 	}
 
 	stickySidebar();
 
-	$('.pinned').pin();
+	
 
 	// Slider
 

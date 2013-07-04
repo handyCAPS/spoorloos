@@ -257,6 +257,39 @@ h4.special {
 		}
 }
 
+.mobile_header_nav {
+	display: none;
+		ul {
+			list-style: none;
+				li {
+					border-bottom: 1px dotted $darkColor;
+					background-color: $middleColor;
+					width: 30%;
+					margin: 0.618em auto;
+					padding: 1em;
+					text-align: center;
+						&:last-of-type {
+							border-bottom: none;
+						}
+						a {
+							display: inline-block;
+							width: 100%;
+						}
+				}
+		}
+}
+
+#showMobileMenu {
+	position: absolute;
+	top: 6.854em;
+	right: 2.618em;
+	width: 68px;
+	text-align: center;
+	padding: 0.308em;
+	background-color: $middleColor;
+	border: 1px solid $darkColor;
+}
+
 #firstContactWrap {
 	@include clearfix;
 	width: 68%;
@@ -352,12 +385,14 @@ h4.special {
 	background-color: $white;
 	width: 68%;
 	padding: 1em;
+	margin: 0;
 		h2 {
 			display: inline-block;
 			margin: 0;
 			background-color: $lightColor;
 			padding: 0.308em 0.618em 0.191em 1.618em;
 			margin-left: -1.618em;
+			text-shadow: 0px 0.3px 0.3px $white;
 		}
 		h3:first-of-type {
 			margin-top: 0;
@@ -371,13 +406,25 @@ h4.special {
 					padding: 1em 0 1em;
 				}
 		}
-		.image_wrap {
-			width: 55%;
-			margin: 0 1em 0.618em 0;
-				img {
-					width: 100%;
-				}
-		}
+}
+
+.image_wrap {
+
+	&:first-of-type {
+		width: 54.7%;
+	}
+	&:nth-of-type(2) {
+		width: 25.9%;
+	}
+	&.left {
+		margin: 0 1em 0.308em 0;
+	}
+	&.right {
+		margin: 0.308em 0em 1em 0;
+	}
+	img {
+		width: 100%;
+	}
 }
 
 #columnWrap {
@@ -480,6 +527,8 @@ h4.special {
 	float: right;
 	padding: 0.618em;
 	margin-left: 1.618em;
+	-webkit-transition: all 0.7s ease ;
+	transition: all 0.7s ease ;
 		h3 {
 			background-color: darken($middleColorHex, 16); // Old browsers
 			// @include filter-gradient(#1e7a99, #7bcbe5, vertical); // IE6-9
@@ -497,7 +546,6 @@ h4.special {
 }
 
 #sidebarPageWrap {
-
 		ul {
 			list-style: none;
 			margin: 0;
@@ -516,6 +564,8 @@ h4.special {
 							background-color: lighten($middleColorHex, 8);
 						}
 					a {
+						display: inline-block;
+						width: 100%;
 						text-shadow: 0px 0px 0px $white;
 						-webkit-transition: all 0.6s ease 0.15s;
 						transition: all 0.6s ease 0.15s;
@@ -554,10 +604,6 @@ h4.special {
 	 border-width: 1em 0 0 1em;
 }
 
-.ict_projecten #slider {
-	height: 300px;
-}
-
 .nivo-control {
 			margin: 0 0.308em;
 		}
@@ -570,3 +616,6 @@ footer p {
 		}
 
 }
+
+@import "_max800";
+@import "_max480";

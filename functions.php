@@ -45,6 +45,7 @@
 		$locations = array(
 			'header_menu' => __('Header Menu', 'text-domain'),
 			'footer_menu' => __('Footer Menu', 'text-domain'),
+			'mobile_header-menu' => __('Mobile Header Menu', 'text-domain'),
 			'mobile_footer-menu' => __('Mobile Footer Menu', 'text-domain')
 			);
 

@@ -54,3 +54,25 @@
 				 ?>
 			</div><!--  end headerNavWrap  -->
 			<div id="logo"><h1><a href="<?php bloginfo('url'); ?>"><img src="<?php echo SPOORWEG ?>/images/logo.png"></a></h1></div><!--  end logo  -->
+			<div id="mobileHeaderNavWrap">
+				<?php 
+					wp_nav_menu( array(
+						'theme_location'  	=> 'mobile_header-menu',
+						'menu'            		=> '', 
+						'container'       	=> 'nav', 
+						'container_class' 	=> 'mobile_header_nav', 
+						'container_id'    	=> '',
+						'menu_class'      	=> 'menu', 
+						'menu_id'         	=> '',
+						'echo'            		=> true,
+						'fallback_cb'     	=> 'wp_page_menu',
+						'before'          		=> '',
+						'after'           		=> '',
+						'link_before'     	=> '',
+						'link_after'      		=> '',
+						'items_wrap'     	=> '<ul id="%1$s" class="%2$s">%3$s</ul>',
+						'depth'           		=> 0,
+						'walker'          		=>  '' ) );
+				 ?>
+			</div><!--  end mobileHeaderNavWrap  -->
+			<div id="showMobileMenu">Menu</div>
