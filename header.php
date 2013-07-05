@@ -19,6 +19,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="<?php echo SPOORWEG; ?>/favicon.ico">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 	<meta name='description' content="<?php bloginfo('description'); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta charset="utf-8">
 
 	<!--[if lt IE 9]>

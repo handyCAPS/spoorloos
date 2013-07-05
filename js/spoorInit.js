@@ -45,12 +45,38 @@ var spoorInit = function() {
 
 	stickySidebar();
 
+	// Mobile Header Menu
+
+	function set_mobile_menu() {
+		var button = $('#showMobileMenu');
+		var menu = $('.mobile_header_nav');
+		var pageWidth = $(window).width();
+		var toggle = false;
+		if ( pageWidth < 810 && toggle == false ) {
+			button.click(function() {
+				menu.show('drop');
+				this.innerHTML = 'Verberg Menu' ;
+				toggle = true;
+				});
+		}
+
+		if ( toggle ) {
+			button.click(function() {
+				menu.hide( 'drop' );
+				this.innerHTML = 'Menu';
+				toggle = false;
+			});
+		}
+
+	}
 	
+	set_mobile_menu();
+
 
 	// Slider
 
 	function set_slider() {
-		slider = $('#slider');
+		var slider = $('#slider');
 		if(slider) {
 			slider.nivoSlider({
 				effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
@@ -78,3 +104,4 @@ var spoorInit = function() {
 	}
 	set_slider();
 }
+	
