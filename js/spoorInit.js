@@ -1,5 +1,7 @@
 var spoorInit = function() {
 
+	var pageWidth = $(window).width();
+
 	// Alle lokale links worden gescrolld en niet ververst
 	$.localScroll();
 
@@ -36,7 +38,6 @@ var spoorInit = function() {
 		var sidebar = $('#sidebarPageWrap');
 		var pageHeight = $(window).height();
 		var sidebarHeight = $(sidebar).height();
-		var pageWidth = $(window).width();
 		if ( sidebarHeight < pageHeight && pageWidth > 810 ) {
 			$(sidebar).addClass( 'pinned' );
 			$('.pinned').pin();
@@ -46,28 +47,21 @@ var spoorInit = function() {
 	stickySidebar();
 
 	// Mobile Header Menu
-
 	function set_mobile_menu() {
 		var button = $('#showMobileMenu');
 		var menu = $('.mobile_header_nav');
-		var pageWidth = $(window).width();
 		var toggle = false;
-		if ( pageWidth < 810 && toggle == false ) {
-			button.click(function() {
+		button.click(function() {
+			if ( pageWidth < 810 && toggle == false ) {
 				menu.show('drop');
 				this.innerHTML = 'Verberg Menu' ;
 				toggle = true;
-				});
-		}
-
-		if ( toggle ) {
-			button.click(function() {
+			} else if (pageWidth < 810 && toggle == true ) {
 				menu.hide( 'drop' );
 				this.innerHTML = 'Menu';
 				toggle = false;
-			});
-		}
-
+			}
+		});
 	}
 	
 	set_mobile_menu();

@@ -29,4 +29,21 @@
 	#showMobileMenu {
 		display: block;
 	}
+
+	#firstContactWrap {
+		width: 90%;
+	}
+	#headerImageWrap > div {
+		width: 160px;
+		height: 120px;
+		margin: 0.618em 0.499em;
+	}
+	.columns {
+		width: 90%;
+		float: none;
+		margin: 0.618em auto;
+			p {
+				height: auto;
+			}
+	}
 }
