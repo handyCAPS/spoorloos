@@ -13,7 +13,7 @@
 
 		wp_enqueue_style( 'google_fonts' );
 		wp_enqueue_style( 'font_awesome' );
-		wp_enqueue_style( 'normalize' );
+		// wp_enqueue_style( 'normalize' );
 		wp_enqueue_style( 'print' );
 		wp_enqueue_style( 'screen' );
 	}
