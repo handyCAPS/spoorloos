@@ -192,6 +192,91 @@
 						
 	}
 
+	function sidebar_page_zorgverleners() {
+
+		$args = ( array( 
+			'name'			=> 'Zorgverleners',
+			'id'			=> 'page_bar_zorgverleners',
+			'description'		=> 'De sidebar op zorgverleners paginas',
+			'before_widget'	=> '<div class="sidebar_page">',
+			'after_widget'		=> "</div>",
+			'before_title'		=> '<h3 class="sidebar_title ribbon"><span class="ribbon-content">',
+			'after_title'		=> "</span></h3>"
+			)	
+		);
+
+		register_sidebar( $args );
+						
+	}
+
+	// function sidebar_page_intake_en_trajectplan() {
+
+	// 	$args = ( array( 
+	// 		'name'			=> 'Intake en trajectplan',
+	// 		'id'			=> 'page_bar_intake_en_trajectplan',
+	// 		'description'		=> 'De sidebar op intake en trajectplan paginas',
+	// 		'before_widget'	=> '<div class="sidebar_page">',
+	// 		'after_widget'		=> "</div>",
+	// 		'before_title'		=> '<h3 class="sidebar_title ribbon"><span class="ribbon-content">',
+	// 		'after_title'		=> "</span></h3>"
+	// 		)	
+	// 	);
+
+	// 	register_sidebar( $args );
+						
+	// }
+
+	// function sidebar_page_arbeidsvaardigheden() {
+
+	// 	$args = ( array( 
+	// 		'name'			=> 'Arbeidsvaardigheden',
+	// 		'id'			=> 'page_bar_arbeidsvaardigheden',
+	// 		'description'		=> 'De sidebar op arbeidsvaardigheden paginas',
+	// 		'before_widget'	=> '<div class="sidebar_page">',
+	// 		'after_widget'		=> "</div>",
+	// 		'before_title'		=> '<h3 class="sidebar_title ribbon"><span class="ribbon-content">',
+	// 		'after_title'		=> "</span></h3>"
+	// 		)	
+	// 	);
+
+	// 	register_sidebar( $args );
+						
+	// }
+
+	// function sidebar_page_trajectbegeleiding() {
+
+	// 	$args = ( array( 
+	// 		'name'			=> 'Trajectbegeleiding',
+	// 		'id'			=> 'page_bar_trajectbegeleiding',
+	// 		'description'		=> 'De sidebar op trajectbegeleiding paginas',
+	// 		'before_widget'	=> '<div class="sidebar_page">',
+	// 		'after_widget'		=> "</div>",
+	// 		'before_title'		=> '<h3 class="sidebar_title ribbon"><span class="ribbon-content">',
+	// 		'after_title'		=> "</span></h3>"
+	// 		)	
+	// 	);
+
+	// 	register_sidebar( $args );
+						
+	// }
+
+	// function sidebar_page_nazorg() {
+
+	// 	$args = ( array( 
+	// 		'name'			=> 'Nazorg',
+	// 		'id'			=> 'page_bar_nazorg',
+	// 		'description'		=> 'De sidebar op nazorg paginas',
+	// 		'before_widget'	=> '<div class="sidebar_page">',
+	// 		'after_widget'		=> "</div>",
+	// 		'before_title'		=> '<h3 class="sidebar_title ribbon"><span class="ribbon-content">',
+	// 		'after_title'		=> "</span></h3>"
+	// 		)	
+	// 	);
+
+	// 	register_sidebar( $args );
+						
+	// }
+
 	add_action('widgets_init', 'sidebar_leftColumn');
 	add_action('widgets_init', 'sidebar_middleColumn');
 	add_action('widgets_init', 'sidebar_rightColumn');
@@ -200,6 +285,11 @@
 	add_action('widgets_init', 'sidebar_page_ictlab');
 	add_action('widgets_init', 'sidebar_page_kinderboerderij');
 	add_action('widgets_init', 'sidebar_page_aandeslag');
+	add_action('widgets_init', 'sidebar_page_zorgverleners');
+	// add_action('widgets_init', 'sidebar_page_intake_en_trajectplan');
+	// add_action('widgets_init', 'sidebar_page_arbeidsvaardigheden');
+	// add_action('widgets_init', 'sidebar_page_trajectbegeleiding');
+	// add_action('widgets_init', 'sidebar_page_nazorg');
 
 	remove_filter ('the_content',  'wpautop');
 

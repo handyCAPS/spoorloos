@@ -44,12 +44,16 @@
 		width: 90%;
 		float: none;
 		margin: 0.618em auto;
+		padding: 0px;
+		border-radius: 4px 4px 0px 0px;
 			p {
 				height: auto;
+				padding: 1em;
 			}
 			h3 {
 				width: 100%;
 				margin: 0 auto;
+				border-radius: 0px;
 			}
 			img {
 				display: none;

@@ -407,8 +407,16 @@ h4.special {
 		ul {
 			list-style: none;
 			display: block;
-				li {
+				&.short_list li {
 					padding: 1em 0 1em;
+				}
+				&.long_list li {
+					padding: 0.308em 0em;
+						&:before {
+							content: "- ";
+							vertical-align: center;
+							margin: 0em 0.308em 0em -1em;
+						}
 				}
 		}
 }
