@@ -252,7 +252,7 @@ figure {
  */
 /* line 253, ../sass/normalize.scss */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -903,7 +903,7 @@ h4.special {
 .contactForm .add-on {
   display: inline-block;
   width: 2.618em;
-  border: 1px solid #C2C2C2;
+  border: 1px solid #c2c2c2;
   border-radius: 4px 0px 0px 4px;
   text-align: center;
   vertical-align: top;
@@ -1038,27 +1038,49 @@ footer p {
 
   /* line 29, ../sass/_max800.scss */
   #showMobileMenu {
-    display: block; }
+    display: block;
+    top: 4.934em;
+    right: 3.049em; }
 
-  /* line 33, ../sass/_max800.scss */
+  /* line 35, ../sass/_max800.scss */
   #firstContactWrap {
     width: 90%; }
 
-  /* line 36, ../sass/_max800.scss */
+  /* line 38, ../sass/_max800.scss */
   #headerImageWrap > div {
     width: 160px;
     height: 120px;
     margin: 0.618em 0.499em; }
 
-  /* line 41, ../sass/_max800.scss */
+  /* line 43, ../sass/_max800.scss */
   .columns {
     width: 90%;
     float: none;
     margin: 0.618em auto; }
-    /* line 45, ../sass/_max800.scss */
+    /* line 47, ../sass/_max800.scss */
     .columns p {
-      height: auto; } }
+      height: auto; }
+    /* line 50, ../sass/_max800.scss */
+    .columns h3 {
+      width: 100%;
+      margin: 0 auto; }
+    /* line 54, ../sass/_max800.scss */
+    .columns img {
+      display: none; } }
 @media screen and (max-width: 500px) {
   /* line 3, ../sass/_max480.scss */
   #outerWrap {
-    width: 100%; } }
+    width: 100%; }
+
+  /* line 6, ../sass/_max480.scss */
+  #showMobileMenu {
+    top: 6.854em;
+    right: 2.618em; }
+
+  /* line 11, ../sass/_max480.scss */
+  .columns h3 {
+    width: 100%;
+    margin: 0 auto; }
+  /* line 15, ../sass/_max480.scss */
+  .columns p, .columns img {
+    display: none; } }

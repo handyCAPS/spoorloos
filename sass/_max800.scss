@@ -28,6 +28,8 @@
 	}
 	#showMobileMenu {
 		display: block;
+		top: 4.934em;
+		right: 3.049em;
 	}
 
 	#firstContactWrap {
@@ -44,6 +46,13 @@
 		margin: 0.618em auto;
 			p {
 				height: auto;
+			}
+			h3 {
+				width: 100%;
+				margin: 0 auto;
+			}
+			img {
+				display: none;
 			}
 	}
 }

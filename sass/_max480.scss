@@ -3,4 +3,17 @@
 	#outerWrap {
 		width: 100%;
 	}
+	#showMobileMenu {
+		top: 6.854em;
+		right: 2.618em;
+	}
+	.columns {
+			h3 {
+				width: 100%;
+				margin: 0 auto;
+			}
+			p, img {
+				display: none;
+			}
+	}
 }
