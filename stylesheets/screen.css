@@ -26,6 +26,34 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'neutonregular';
+  src: url("../fonts/Neuton/neuton-regular-webfont.eot");
+  src: url("../fonts/Neuton/neuton-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Neuton/neuton-regular-webfont.woff") format("woff"), url("../fonts/Neuton/neuton-regular-webfont.ttf") format("truetype"), url("../fonts/Neuton/neuton-regular-webfont.svg#neutonregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'texgyretermesbold';
+  src: url("../fonts/Tex/texgyretermes-bold-webfont.eot");
+  src: url("../fonts/Tex/texgyretermes-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Tex/texgyretermes-bold-webfont.woff") format("woff"), url("../fonts/Tex/texgyretermes-bold-webfont.ttf") format("truetype"), url("../fonts/Tex/texgyretermes-bold-webfont.svg#texgyretermesbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'vollkornregular';
+  src: url("../fonts/Vollkorn/vollkorn-regular-webfont.eot");
+  src: url("../fonts/Vollkorn/vollkorn-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Vollkorn/vollkorn-regular-webfont.woff") format("woff"), url("../fonts/Vollkorn/vollkorn-regular-webfont.ttf") format("truetype"), url("../fonts/Vollkorn/vollkorn-regular-webfont.svg#vollkornregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'vollkornbold';
+  src: url("../fonts/Vollkorn/bold/vollkorn-bold-webfont.eot");
+  src: url("../fonts/Vollkorn/bold/vollkorn-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Vollkorn/bold/vollkorn-bold-webfont.woff") format("woff"), url("../fonts/Vollkorn/bold/vollkorn-bold-webfont.ttf") format("truetype"), url("../fonts/Vollkorn/bold/vollkorn-bold-webfont.svg#vollkornbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -424,7 +452,7 @@ header {
 
 /* line 39, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Cardo", sans-serif;
+  font-family: "vollkornregular", serif;
   font-weight: 300;
   letter-spacing: 1.618px;
   -moz-font-feature-settings: "liga=1, dlig=1";
@@ -789,46 +817,49 @@ h4.special {
     text-shadow: 0px 0.3px 0.3px white; }
   /* line 401, ../sass/screen.scss */
   #pageWrap h3:first-of-type {
-    margin-top: 0; }
+    margin-top: -4px; }
   /* line 407, ../sass/screen.scss */
   #pageWrap ul {
     list-style: none;
     display: block; }
     /* line 410, ../sass/screen.scss */
+    #pageWrap ul.long_list {
+      clear: both; }
+    /* line 413, ../sass/screen.scss */
     #pageWrap ul.short_list li {
       padding: 1em 0 1em; }
-    /* line 413, ../sass/screen.scss */
+    /* line 416, ../sass/screen.scss */
     #pageWrap ul.long_list li {
       padding: 0.308em 0em; }
-      /* line 415, ../sass/screen.scss */
+      /* line 418, ../sass/screen.scss */
       #pageWrap ul.long_list li:before {
         content: "- ";
         vertical-align: center;
         margin: 0em 0.308em 0em -1em; }
 
-/* line 424, ../sass/screen.scss */
+/* line 427, ../sass/screen.scss */
 .image_wrap {
   width: 33.818%; }
-  /* line 426, ../sass/screen.scss */
+  /* line 429, ../sass/screen.scss */
   .image_wrap.left {
     margin: 0.308em 0.807em 0.308em 0; }
-  /* line 429, ../sass/screen.scss */
+  /* line 432, ../sass/screen.scss */
   .image_wrap.right {
     margin: 0.308em 0em 0.318em 0.618em; }
-  /* line 432, ../sass/screen.scss */
+  /* line 435, ../sass/screen.scss */
   .image_wrap img {
     width: 100%; }
-  /* line 435, ../sass/screen.scss */
+  /* line 438, ../sass/screen.scss */
   .image_wrap:first-of-type {
     width: 41.887%;
     margin-top: 0px; }
 
-/* line 444, ../sass/screen.scss */
+/* line 447, ../sass/screen.scss */
 #columnWrap {
   overflow: hidden;
   *zoom: 1; }
 
-/* line 448, ../sass/screen.scss */
+/* line 451, ../sass/screen.scss */
 .columns {
   width: 31%;
   margin: 1.306em 0.618em;
@@ -837,7 +868,7 @@ h4.special {
   border: 1px solid #0a5b76;
   background-color: white;
   background-color: rgba(255, 255, 255, 0.78); }
-  /* line 456, ../sass/screen.scss */
+  /* line 459, ../sass/screen.scss */
   .columns h3 {
     color: white;
     width: 68%;
@@ -845,28 +876,28 @@ h4.special {
     border-radius: 2px;
     background-color: #1095c1;
     text-align: center;
-    padding: 0.308em 0.618em 0.236em; }
-  /* line 465, ../sass/screen.scss */
+    padding: 0.236em 0.618em 0.236em; }
+  /* line 468, ../sass/screen.scss */
   .columns img {
     width: 100%; }
-  /* line 468, ../sass/screen.scss */
+  /* line 471, ../sass/screen.scss */
   .columns p {
     height: 21.313em; }
 
-/* line 473, ../sass/screen.scss */
+/* line 476, ../sass/screen.scss */
 .verplicht_veld i[class="icon-hand-left"] {
   color: #259dc5; }
 
-/* line 478, ../sass/screen.scss */
+/* line 481, ../sass/screen.scss */
 .contactForm div:first-child {
   margin-top: 0.308em; }
-/* line 481, ../sass/screen.scss */
+/* line 484, ../sass/screen.scss */
 .contactForm .input-prepend {
   margin: 1.618em 0; }
-/* line 484, ../sass/screen.scss */
+/* line 487, ../sass/screen.scss */
 .contactForm i[class="icon-hand-left"] {
   color: #27a4ce; }
-/* line 487, ../sass/screen.scss */
+/* line 490, ../sass/screen.scss */
 .contactForm input, .contactForm textarea {
   border-right: 1px solid #76c9e5;
   border-left: none;
@@ -874,10 +905,10 @@ h4.special {
   border-radius: 0px 4px 4px 0px;
   padding-left: 0.308em;
   margin-right: 0.618em; }
-/* line 495, ../sass/screen.scss */
+/* line 498, ../sass/screen.scss */
 .contactForm textarea {
   border-bottom: 1px solid #76c9e5; }
-/* line 498, ../sass/screen.scss */
+/* line 501, ../sass/screen.scss */
 .contactForm .button_wrap {
   background-color: #76c9e5;
   height: 1.884em;
@@ -885,29 +916,29 @@ h4.special {
   border-radius: 4px;
   padding: 0.191em 0.618em 0.191em 0.618em;
   margin-right: 0.618em; }
-/* line 506, ../sass/screen.scss */
+/* line 509, ../sass/screen.scss */
 .contactForm .before_button {
   padding-right: 0.618em;
   margin: 0;
   vertical-align: center;
   text-shadow: 0px 1px 1.6px white; }
-/* line 512, ../sass/screen.scss */
+/* line 515, ../sass/screen.scss */
 .contactForm ::-webkit-input-placeholder {
   /* WebKit browsers */
   color: #0a5b76; }
-/* line 515, ../sass/screen.scss */
+/* line 518, ../sass/screen.scss */
 .contactForm :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #0a5b76; }
-/* line 518, ../sass/screen.scss */
+/* line 521, ../sass/screen.scss */
 .contactForm ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #0a5b76; }
-/* line 521, ../sass/screen.scss */
+/* line 524, ../sass/screen.scss */
 .contactForm :-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: #0a5b76; }
-/* line 524, ../sass/screen.scss */
+/* line 527, ../sass/screen.scss */
 .contactForm .add-on {
   display: inline-block;
   width: 2.618em;
@@ -920,7 +951,7 @@ h4.special {
   margin-right: -1px;
   text-shadow: 0px 1px 1.6px white; }
 
-/* line 538, ../sass/screen.scss */
+/* line 541, ../sass/screen.scss */
 #sidebarPageWrap {
   background-color: white;
   width: 29%;
@@ -929,25 +960,25 @@ h4.special {
   margin-left: 1.618em;
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease; }
-  /* line 546, ../sass/screen.scss */
+  /* line 549, ../sass/screen.scss */
   #sidebarPageWrap h3 {
     background-color: #31aed8;
     color: white;
     font-size: 1.146em;
     text-shadow: 0.4px 0.6px 1.3px #0a5b76;
     border: 1px solid #0a5b76;
-    padding: 0.308em 0.236em 0.191em 1.618em;
+    padding: 0.118em 0.236em 0.191em 1.618em;
     width: 88%;
     left: -1.191em;
     -webkit-box-shadow: 0px 5px 4px -5px black;
     box-shadow: 0px 5px 4px -5px black; }
 
-/* line 563, ../sass/screen.scss */
+/* line 566, ../sass/screen.scss */
 #sidebarPageWrap ul {
   list-style: none;
   margin: 0;
   padding: 0; }
-  /* line 567, ../sass/screen.scss */
+  /* line 570, ../sass/screen.scss */
   #sidebarPageWrap ul li {
     border: 0.6px dotted rgba(10, 91, 118, 0.7);
     padding: 0.247em 0.618em;
@@ -955,37 +986,37 @@ h4.special {
     text-shadow: 0px 0px 0px white;
     -webkit-transition: all 0.6s ease 0.15s;
     transition: all 0.6s ease 0.15s; }
-    /* line 574, ../sass/screen.scss */
+    /* line 577, ../sass/screen.scss */
     #sidebarPageWrap ul li.current-menu-item {
       background-color: #a9ddef; }
-    /* line 577, ../sass/screen.scss */
+    /* line 580, ../sass/screen.scss */
     #sidebarPageWrap ul li:hover {
       background-color: #98d7ec; }
-    /* line 580, ../sass/screen.scss */
+    /* line 583, ../sass/screen.scss */
     #sidebarPageWrap ul li a {
       display: inline-block;
       width: 100%;
       text-shadow: 0px 0px 0px white;
       -webkit-transition: all 0.6s ease 0.15s;
       transition: all 0.6s ease 0.15s; }
-      /* line 586, ../sass/screen.scss */
+      /* line 589, ../sass/screen.scss */
       #sidebarPageWrap ul li a:hover {
         text-shadow: 0px 0.6px 1.2px #bdeafa; }
-    /* line 590, ../sass/screen.scss */
+    /* line 593, ../sass/screen.scss */
     #sidebarPageWrap ul li li {
       display: none; }
 
-/* line 597, ../sass/screen.scss */
+/* line 600, ../sass/screen.scss */
 .ribbon {
   position: relative; }
 
-/* line 601, ../sass/screen.scss */
+/* line 604, ../sass/screen.scss */
 .ribbon:before {
   left: -3em;
   border-right-width: 1em;
   border-left-color: transparent; }
 
-/* line 607, ../sass/screen.scss */
+/* line 610, ../sass/screen.scss */
 .ribbon .ribbon-content:before {
   content: "";
   position: absolute;
@@ -995,19 +1026,19 @@ h4.special {
   bottom: -1em;
   z-index: -1; }
 
-/* line 616, ../sass/screen.scss */
+/* line 619, ../sass/screen.scss */
 .ribbon .ribbon-content:before {
   left: 0;
   border-width: 1em 0 0 1em; }
 
-/* line 621, ../sass/screen.scss */
+/* line 624, ../sass/screen.scss */
 .nivo-control {
   margin: 0 0.308em; }
 
-/* line 625, ../sass/screen.scss */
+/* line 628, ../sass/screen.scss */
 footer p {
   text-align: center; }
-  /* line 627, ../sass/screen.scss */
+  /* line 630, ../sass/screen.scss */
   footer p a {
     text-decoration: none;
     color: #0a5b76; }

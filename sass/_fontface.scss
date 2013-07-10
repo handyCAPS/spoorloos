@@ -47,3 +47,51 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'neutonregular';
+    src: url('../fonts/Neuton/neuton-regular-webfont.eot');
+    src: url('../fonts/Neuton/neuton-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Neuton/neuton-regular-webfont.woff') format('woff'),
+         url('../fonts/Neuton/neuton-regular-webfont.ttf') format('truetype'),
+         url('../fonts/Neuton/neuton-regular-webfont.svg#neutonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'texgyretermesbold';
+    src: url('../fonts/Tex/texgyretermes-bold-webfont.eot');
+    src: url('../fonts/Tex/texgyretermes-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Tex/texgyretermes-bold-webfont.woff') format('woff'),
+         url('../fonts/Tex/texgyretermes-bold-webfont.ttf') format('truetype'),
+         url('../fonts/Tex/texgyretermes-bold-webfont.svg#texgyretermesbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vollkornregular';
+    src: url('../fonts/Vollkorn/vollkorn-regular-webfont.eot');
+    src: url('../fonts/Vollkorn/vollkorn-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Vollkorn/vollkorn-regular-webfont.woff') format('woff'),
+         url('../fonts/Vollkorn/vollkorn-regular-webfont.ttf') format('truetype'),
+         url('../fonts/Vollkorn/vollkorn-regular-webfont.svg#vollkornregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vollkornbold';
+    src: url('../fonts/Vollkorn/bold/vollkorn-bold-webfont.eot');
+    src: url('../fonts/Vollkorn/bold/vollkorn-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Vollkorn/bold/vollkorn-bold-webfont.woff') format('woff'),
+         url('../fonts/Vollkorn/bold/vollkorn-bold-webfont.ttf') format('truetype'),
+         url('../fonts/Vollkorn/bold/vollkorn-bold-webfont.svg#vollkornbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
