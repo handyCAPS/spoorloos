@@ -39,8 +39,8 @@ var spoorInit = function() {
 		var pageHeight = $(window).height();
 		var sidebarHeight = $(sidebar).height();
 		if ( sidebarHeight < pageHeight && pageWidth > 810 ) {
-			$(sidebar).addClass( 'pinned' );
-			$('.pinned').pin();
+			$(sidebar).addClass( 'sticker' );
+			$('.sticker').stickySidebar();
 		}
 	}
 

@@ -597,6 +597,18 @@ h4.special {
 		}		
 }
 
+#pageWrap.Projecten h3 {
+	width: 105.2%;
+	color: $lightColor;
+	background-color: $darkColor;
+	margin-left: -1em;
+	padding: 0.308em 0em 0.308em 1em;
+	text-shadow: 0.2px 0.67px 0.6px black;
+		&:first-of-type {
+			margin-top: 0;
+		}
+}
+
 .ribbon {
   	position: relative;
 }

@@ -6,7 +6,7 @@ Template Name: Mapspage
 <?php get_header('maps'); ?>
 		</header>
 	<div id="mainContent">
-		<div id="pageWrap">
+		<div id="pageWrap" class="<?php strtolower(the_title()); ?>">
 			<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 				<h2> <?php the_title(); ?> </h2>

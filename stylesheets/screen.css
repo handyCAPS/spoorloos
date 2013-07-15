@@ -1007,16 +1007,28 @@ h4.special {
       display: none; }
 
 /* line 600, ../sass/screen.scss */
+#pageWrap.Projecten h3 {
+  width: 105.2%;
+  color: #bdeafa;
+  background-color: #0a5b76;
+  margin-left: -1em;
+  padding: 0.308em 0em 0.308em 1em;
+  text-shadow: 0.2px 0.67px 0.6px black; }
+  /* line 607, ../sass/screen.scss */
+  #pageWrap.Projecten h3:first-of-type {
+    margin-top: 0; }
+
+/* line 612, ../sass/screen.scss */
 .ribbon {
   position: relative; }
 
-/* line 604, ../sass/screen.scss */
+/* line 616, ../sass/screen.scss */
 .ribbon:before {
   left: -3em;
   border-right-width: 1em;
   border-left-color: transparent; }
 
-/* line 610, ../sass/screen.scss */
+/* line 622, ../sass/screen.scss */
 .ribbon .ribbon-content:before {
   content: "";
   position: absolute;
@@ -1026,19 +1038,19 @@ h4.special {
   bottom: -1em;
   z-index: -1; }
 
-/* line 619, ../sass/screen.scss */
+/* line 631, ../sass/screen.scss */
 .ribbon .ribbon-content:before {
   left: 0;
   border-width: 1em 0 0 1em; }
 
-/* line 624, ../sass/screen.scss */
+/* line 636, ../sass/screen.scss */
 .nivo-control {
   margin: 0 0.308em; }
 
-/* line 628, ../sass/screen.scss */
+/* line 640, ../sass/screen.scss */
 footer p {
   text-align: center; }
-  /* line 630, ../sass/screen.scss */
+  /* line 642, ../sass/screen.scss */
   footer p a {
     text-decoration: none;
     color: #0a5b76; }
