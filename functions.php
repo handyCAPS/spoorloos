@@ -5,7 +5,7 @@
 	// Hier worden de stylesheets en scripts geladen
 
 	function spoorxi_styles() {
-		wp_register_style( 'normalize', SPOORWEG . '/stylesheets/normalize.css', 'all' );
+		// wp_register_style( 'normalize', SPOORWEG . '/stylesheets/normalize.css', 'all' );
 		wp_register_style( 'print', SPOORWEG . '/stylesheets/print.css', 'print' );
 		wp_register_style( 'screen', SPOORWEG . '/stylesheets/screen.css', 'screen' );
 		wp_register_style( 'google_fonts', 'http://fonts.googleapis.com/css?family=Open+Sans|Noto+Serif|Permanent+Marker', 'all' );
@@ -292,5 +292,40 @@
 	// add_action('widgets_init', 'sidebar_page_nazorg');
 
 	remove_filter ('the_content',  'wpautop');
+
+
+	// Experimental area
+	function spoorXI_sidebars() {
+		$sxi_sidebars = array(
+			'deelnemers',
+			'zorgverleners',
+			'opdrachtgevers',
+			'contact',
+			'aandeslag',
+			'kinderboerderij',
+			'ict-lab'
+		 );
+
+		foreach ($sidebar as $sxi_sidebars) {
+			return 
+				(function sidebar_page_deelnemers() {
+				
+									$args = ( array( 
+									'name'			=> ucfirst($sidebar),
+									'id'			=> 'page_bar_' . $sidebar,
+									'description'		=> 'De sidebar op '. $sidebar . ' pagina',
+									'before_widget'	=> '<div class="sidebar_page">',
+									'after_widget'		=> "</div>",
+									'before_title'		=> '<h3 class="sidebar_title ribbon"><span class="ribbon-content">',
+									'after_title'		=> "</span></h3>"
+									)	
+									);
+				
+									register_sidebar( $args );
+								});
+						
+		}
+	}
+}
 
 ?>

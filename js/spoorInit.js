@@ -40,7 +40,7 @@ var spoorInit = function() {
 		var sidebarHeight = $(sidebar).height();
 		if ( sidebarHeight < pageHeight && pageWidth > 810 ) {
 			$(sidebar).addClass( 'sticker' );
-			$('.sticker').stickySidebar();
+			$('.sticker').stickySidebar({speed: 400, padding: 30, constrain: true});
 		}
 	}
 
@@ -71,7 +71,7 @@ var spoorInit = function() {
 
 	function set_slider() {
 		var slider = $('#slider');
-		if(slider) {
+		if(slider !== null) {
 			slider.nivoSlider({
 				effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
 				slices: 15, // For slice animations
