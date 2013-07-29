@@ -453,23 +453,30 @@ h4.special {
 	margin: 1.306em 0.618em;
 	float: left;
 	padding: 0.618em 1.306em 1em;
-	border: 1px solid $darkColor;
-	background-color: $white;
-	background-color: rgba(255,255,255,0.78);
+	// border: 1px solid $darkColor;
+	// background-color: $white;
+	// background-color: rgba(255,255,255,0.78);
+		&:nth-of-type(2) {
+			margin-top: 5.533em;
+		}
 		h3 {
+			font-family: $headerFont;
 			color: $white;
 			width: 68%;
 			margin: 1em auto;
-			border-radius: 2px;
+			// border-radius: 2px;
 			background-color: lighten($darkColor, 16);
 			text-align: center;
 			padding: 0.236em 0.618em 0.236em;
+			text-shadow: 0.2px 0.5px 0.5px $darkColor;
 		}
 		img {
 			width: 100%;
+			border-radius: 50%;
 		}
 		p {
-			height: 21.313em;
+			// height: 21.313em;
+			margin-top: 1.618em;
 		}
 }
 
