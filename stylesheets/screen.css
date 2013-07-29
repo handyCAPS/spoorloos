@@ -280,7 +280,7 @@ figure {
  */
 /* line 253, ../sass/normalize.scss */
 fieldset {
-  border: 1px solid silver;
+  border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -452,7 +452,7 @@ header {
 
 /* line 39, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "vollkornregular", serif;
+  font-family: "klinic_slabmedium", serif;
   font-weight: 300;
   letter-spacing: 1.618px;
   -moz-font-feature-settings: "liga=1, dlig=1";
@@ -724,9 +724,10 @@ h4.special {
   #firstContact h2 {
     color: white;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    letter-spacing: inherit; }
 
-/* line 315, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 #actionCall {
   background-color: #76c9e5;
   background-color: rgba(66, 196, 240, 0.7);
@@ -740,40 +741,40 @@ h4.special {
   -webkit-transition: all 0.7s ease 0.2s;
   -moz-transition: all 0.7s ease 0.2s;
   transition: all 0.7s ease 0.2s; }
-  /* line 328, ../sass/screen.scss */
+  /* line 329, ../sass/screen.scss */
   #actionCall p {
     text-decoration: none;
     color: white;
     font-size: 1.618em;
     margin: 0; }
-  /* line 334, ../sass/screen.scss */
+  /* line 335, ../sass/screen.scss */
   #actionCall:hover {
     background-color: #0a5b76;
     background-color: rgba(18, 167, 217, 0.7);
     border: 1.6px solid #bdeafa;
     border: 1.6px solid rgba(213, 242, 252, 0.7); }
 
-/* line 342, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 #headerImageWrap {
   overflow: hidden;
   *zoom: 1;
   padding: 0 0 1.618em; }
-  /* line 345, ../sass/screen.scss */
+  /* line 346, ../sass/screen.scss */
   #headerImageWrap img {
     width: 100%;
     border: 6.2px solid white; }
-  /* line 349, ../sass/screen.scss */
+  /* line 350, ../sass/screen.scss */
   #headerImageWrap > div {
     width: 200px;
     height: 150px;
     float: left;
     margin: 0 1.306em; }
-  /* line 355, ../sass/screen.scss */
+  /* line 356, ../sass/screen.scss */
   #headerImageWrap .lees_meer {
     display: block;
     margin: 4px 0 -4px; }
 
-/* line 361, ../sass/screen.scss */
+/* line 362, ../sass/screen.scss */
 .revealOnHover {
   width: 200px;
   display: none;
@@ -783,31 +784,31 @@ h4.special {
   line-height: 1.2;
   background-color: #0a5b76;
   background-color: rgba(10, 91, 118, 0.7); }
-  /* line 370, ../sass/screen.scss */
+  /* line 371, ../sass/screen.scss */
   .revealOnHover h3 {
     margin: 0 0 0.236em 0;
     font-size: 1.306em;
     color: white; }
-  /* line 375, ../sass/screen.scss */
+  /* line 376, ../sass/screen.scss */
   .revealOnHover p {
     color: white;
     margin-top: 0; }
 
-/* line 381, ../sass/screen.scss */
+/* line 382, ../sass/screen.scss */
 #mainContent {
   overflow: hidden;
   *zoom: 1;
   width: 96%;
   margin: 0 auto 1.618em; }
 
-/* line 387, ../sass/screen.scss */
+/* line 388, ../sass/screen.scss */
 #pageWrap {
   float: left;
   background-color: white;
   width: 68%;
   padding: 1em;
   margin: 0; }
-  /* line 393, ../sass/screen.scss */
+  /* line 394, ../sass/screen.scss */
   #pageWrap h2 {
     display: inline-block;
     margin: 0;
@@ -815,91 +816,91 @@ h4.special {
     padding: 0.308em 0.618em 0.191em 1.618em;
     margin-left: -1.618em;
     text-shadow: 0px 0.3px 0.3px white; }
-  /* line 401, ../sass/screen.scss */
+  /* line 402, ../sass/screen.scss */
   #pageWrap h3:first-of-type {
     margin-top: -4px; }
-  /* line 407, ../sass/screen.scss */
+  /* line 408, ../sass/screen.scss */
   #pageWrap ul {
     list-style: none;
     display: block; }
-    /* line 410, ../sass/screen.scss */
+    /* line 411, ../sass/screen.scss */
     #pageWrap ul.long_list {
       clear: both; }
-    /* line 413, ../sass/screen.scss */
+    /* line 414, ../sass/screen.scss */
     #pageWrap ul.short_list li {
       padding: 1em 0 1em; }
-    /* line 416, ../sass/screen.scss */
+    /* line 417, ../sass/screen.scss */
     #pageWrap ul.long_list li {
       padding: 0.308em 0em; }
-      /* line 418, ../sass/screen.scss */
+      /* line 419, ../sass/screen.scss */
       #pageWrap ul.long_list li:before {
         content: "- ";
         vertical-align: center;
         margin: 0em 0.308em 0em -1em; }
 
-/* line 427, ../sass/screen.scss */
+/* line 428, ../sass/screen.scss */
 .image_wrap {
   width: 33.818%; }
-  /* line 429, ../sass/screen.scss */
+  /* line 430, ../sass/screen.scss */
   .image_wrap.left {
     margin: 0.308em 0.807em 0.308em 0; }
-  /* line 432, ../sass/screen.scss */
+  /* line 433, ../sass/screen.scss */
   .image_wrap.right {
     margin: 0.308em 0em 0.318em 0.618em; }
-  /* line 435, ../sass/screen.scss */
+  /* line 436, ../sass/screen.scss */
   .image_wrap img {
     width: 100%; }
-  /* line 438, ../sass/screen.scss */
+  /* line 439, ../sass/screen.scss */
   .image_wrap:first-of-type {
     width: 41.887%;
     margin-top: 0px; }
 
-/* line 447, ../sass/screen.scss */
+/* line 448, ../sass/screen.scss */
 #columnWrap {
   overflow: hidden;
   *zoom: 1; }
 
-/* line 451, ../sass/screen.scss */
+/* line 452, ../sass/screen.scss */
 .columns {
   width: 31%;
   margin: 1.306em 0.618em;
   float: left;
   padding: 0.618em 1.306em 1em; }
-  /* line 459, ../sass/screen.scss */
+  /* line 460, ../sass/screen.scss */
   .columns:nth-of-type(2) {
     margin-top: 5.533em; }
-  /* line 462, ../sass/screen.scss */
+  /* line 463, ../sass/screen.scss */
   .columns h3 {
-    font-family: "vollkornregular", serif;
+    font-family: "klinic_slabmedium", serif;
     color: white;
-    width: 68%;
+    width: 70%;
     margin: 1em auto;
-    background-color: #1095c1;
+    background-color: #4f9cb5;
     text-align: center;
     padding: 0.236em 0.618em 0.236em;
     text-shadow: 0.2px 0.5px 0.5px #0a5b76; }
-  /* line 473, ../sass/screen.scss */
+  /* line 474, ../sass/screen.scss */
   .columns img {
     width: 100%;
     border-radius: 50%; }
-  /* line 477, ../sass/screen.scss */
+  /* line 478, ../sass/screen.scss */
   .columns p {
     margin-top: 1.618em; }
 
-/* line 483, ../sass/screen.scss */
+/* line 484, ../sass/screen.scss */
 .verplicht_veld i[class="icon-hand-left"] {
   color: #259dc5; }
 
-/* line 488, ../sass/screen.scss */
+/* line 489, ../sass/screen.scss */
 .contactForm div:first-child {
   margin-top: 0.308em; }
-/* line 491, ../sass/screen.scss */
+/* line 492, ../sass/screen.scss */
 .contactForm .input-prepend {
   margin: 1.618em 0; }
-/* line 494, ../sass/screen.scss */
+/* line 495, ../sass/screen.scss */
 .contactForm i[class="icon-hand-left"] {
   color: #27a4ce; }
-/* line 497, ../sass/screen.scss */
+/* line 498, ../sass/screen.scss */
 .contactForm input, .contactForm textarea {
   border-right: 1px solid #76c9e5;
   border-left: none;
@@ -907,10 +908,10 @@ h4.special {
   border-radius: 0px 4px 4px 0px;
   padding-left: 0.308em;
   margin-right: 0.618em; }
-/* line 505, ../sass/screen.scss */
+/* line 506, ../sass/screen.scss */
 .contactForm textarea {
   border-bottom: 1px solid #76c9e5; }
-/* line 508, ../sass/screen.scss */
+/* line 509, ../sass/screen.scss */
 .contactForm .button_wrap {
   background-color: #76c9e5;
   height: 1.884em;
@@ -918,33 +919,33 @@ h4.special {
   border-radius: 4px;
   padding: 0.191em 0.618em 0.191em 0.618em;
   margin-right: 0.618em; }
-/* line 516, ../sass/screen.scss */
+/* line 517, ../sass/screen.scss */
 .contactForm .before_button {
   padding-right: 0.618em;
   margin: 0;
   vertical-align: center;
   text-shadow: 0px 1px 1.6px white; }
-/* line 522, ../sass/screen.scss */
+/* line 523, ../sass/screen.scss */
 .contactForm ::-webkit-input-placeholder {
   /* WebKit browsers */
   color: #0a5b76; }
-/* line 525, ../sass/screen.scss */
+/* line 526, ../sass/screen.scss */
 .contactForm :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #0a5b76; }
-/* line 528, ../sass/screen.scss */
+/* line 529, ../sass/screen.scss */
 .contactForm ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #0a5b76; }
-/* line 531, ../sass/screen.scss */
+/* line 532, ../sass/screen.scss */
 .contactForm :-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: #0a5b76; }
-/* line 534, ../sass/screen.scss */
+/* line 535, ../sass/screen.scss */
 .contactForm .add-on {
   display: inline-block;
   width: 2.618em;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #C2C2C2;
   border-radius: 4px 0px 0px 4px;
   text-align: center;
   vertical-align: top;
@@ -953,7 +954,7 @@ h4.special {
   margin-right: -1px;
   text-shadow: 0px 1px 1.6px white; }
 
-/* line 548, ../sass/screen.scss */
+/* line 549, ../sass/screen.scss */
 #sidebarPageWrap {
   background-color: white;
   width: 29%;
@@ -962,7 +963,7 @@ h4.special {
   margin-left: 1.618em;
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease; }
-  /* line 556, ../sass/screen.scss */
+  /* line 557, ../sass/screen.scss */
   #sidebarPageWrap h3 {
     background-color: #31aed8;
     color: white;
@@ -975,12 +976,12 @@ h4.special {
     -webkit-box-shadow: 0px 5px 4px -5px black;
     box-shadow: 0px 5px 4px -5px black; }
 
-/* line 573, ../sass/screen.scss */
+/* line 574, ../sass/screen.scss */
 #sidebarPageWrap ul {
   list-style: none;
   margin: 0;
   padding: 0; }
-  /* line 577, ../sass/screen.scss */
+  /* line 578, ../sass/screen.scss */
   #sidebarPageWrap ul li {
     border: 0.6px dotted rgba(10, 91, 118, 0.7);
     padding: 0.247em 0.618em;
@@ -988,27 +989,27 @@ h4.special {
     text-shadow: 0px 0px 0px white;
     -webkit-transition: all 0.6s ease 0.15s;
     transition: all 0.6s ease 0.15s; }
-    /* line 584, ../sass/screen.scss */
+    /* line 585, ../sass/screen.scss */
     #sidebarPageWrap ul li.current-menu-item {
       background-color: #a9ddef; }
-    /* line 587, ../sass/screen.scss */
+    /* line 588, ../sass/screen.scss */
     #sidebarPageWrap ul li:hover {
       background-color: #98d7ec; }
-    /* line 590, ../sass/screen.scss */
+    /* line 591, ../sass/screen.scss */
     #sidebarPageWrap ul li a {
       display: inline-block;
       width: 100%;
       text-shadow: 0px 0px 0px white;
       -webkit-transition: all 0.6s ease 0.15s;
       transition: all 0.6s ease 0.15s; }
-      /* line 596, ../sass/screen.scss */
+      /* line 597, ../sass/screen.scss */
       #sidebarPageWrap ul li a:hover {
         text-shadow: 0px 0.6px 1.2px #bdeafa; }
-    /* line 600, ../sass/screen.scss */
+    /* line 601, ../sass/screen.scss */
     #sidebarPageWrap ul li li {
       display: none; }
 
-/* line 607, ../sass/screen.scss */
+/* line 608, ../sass/screen.scss */
 #pageWrap.Projecten h3 {
   width: 105.2%;
   color: #bdeafa;
@@ -1016,21 +1017,21 @@ h4.special {
   margin-left: -1em;
   padding: 0.308em 0em 0.308em 1em;
   text-shadow: 0.2px 0.67px 0.6px black; }
-  /* line 614, ../sass/screen.scss */
+  /* line 615, ../sass/screen.scss */
   #pageWrap.Projecten h3:first-of-type {
     margin-top: 0; }
 
-/* line 619, ../sass/screen.scss */
+/* line 620, ../sass/screen.scss */
 .ribbon {
   position: relative; }
 
-/* line 623, ../sass/screen.scss */
+/* line 624, ../sass/screen.scss */
 .ribbon:before {
   left: -3em;
   border-right-width: 1em;
   border-left-color: transparent; }
 
-/* line 629, ../sass/screen.scss */
+/* line 630, ../sass/screen.scss */
 .ribbon .ribbon-content:before {
   content: "";
   position: absolute;
@@ -1040,24 +1041,24 @@ h4.special {
   bottom: -1em;
   z-index: -1; }
 
-/* line 638, ../sass/screen.scss */
+/* line 639, ../sass/screen.scss */
 .ribbon .ribbon-content:before {
   left: 0;
   border-width: 1em 0 0 1em; }
 
-/* line 643, ../sass/screen.scss */
+/* line 644, ../sass/screen.scss */
 .nivo-control {
   margin: 0 0.308em; }
 
-/* line 647, ../sass/screen.scss */
+/* line 648, ../sass/screen.scss */
 .slider-wrapper {
   height: 375px; }
 
-/* line 651, ../sass/screen.scss */
+/* line 652, ../sass/screen.scss */
 footer p {
   margin-top: 0.618em;
   text-align: center; }
-  /* line 654, ../sass/screen.scss */
+  /* line 655, ../sass/screen.scss */
   footer p a {
     text-decoration: none;
     color: #0a5b76; }

@@ -309,6 +309,7 @@ h4.special {
 			color: $white;
 			padding: 0;
 			margin: 0;
+			letter-spacing: inherit;
 		}
 }
 
@@ -462,10 +463,10 @@ h4.special {
 		h3 {
 			font-family: $headerFont;
 			color: $white;
-			width: 68%;
+			width: 70%;
 			margin: 1em auto;
 			// border-radius: 2px;
-			background-color: lighten($darkColor, 16);
+			background-color: $middleColorSat;
 			text-align: center;
 			padding: 0.236em 0.618em 0.236em;
 			text-shadow: 0.2px 0.5px 0.5px $darkColor;

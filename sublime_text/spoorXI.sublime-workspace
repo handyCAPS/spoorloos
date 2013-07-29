@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Win",
+				"WinRestore"
+			],
+			[
 				"post",
 				"post_name"
 			],
@@ -272,10 +276,34 @@
 			}
 		},
 		{
+			"file": "/C/AutoHotKeyScripts/programs.ahk",
+			"settings":
+			{
+				"buffer_size": 662,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/AutoHotKeyScripts/key_mapping.ahk",
+			"settings":
+			{
+				"buffer_size": 524,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/AutoHotKeyScripts/folders.ahk",
+			"settings":
+			{
+				"buffer_size": 484,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "/C/AutoHotKeyScripts/test.ahk",
 			"settings":
 			{
-				"buffer_size": 234,
+				"buffer_size": 93,
 				"line_ending": "Windows"
 			}
 		},
@@ -387,6 +415,7 @@
 	},
 	"file_history":
 	[
+		"/C/AutoHotKeyScripts/test.ahk",
 		"/C/Users/Tim/SiteMap2/DeWitteMerel/index.html",
 		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/functions.php",
 		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/js/jquery.sticky-sidebar.js",
@@ -513,8 +542,7 @@
 		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/zurbster/scss/_base.scss",
 		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/zurbster/_fonts.scss",
 		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/zurbster/_base.scss",
-		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/zurbster/scss/_settings.scss",
-		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/blog/.htaccess"
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/zurbster/scss/_settings.scss"
 	],
 	"find":
 	{
@@ -532,6 +560,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" ;",
 			"page_bar",
 			"return",
 			"page_bar",
@@ -623,7 +652,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -761,31 +790,31 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8737.0,
+						"translation.y": 2407.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "/C/AutoHotKeyScripts/test.ahk",
+					"file": "/C/AutoHotKeyScripts/programs.ahk",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 234,
+						"buffer_size": 662,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								212,
-								212
+								662,
+								662
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/AutoHotkey/AutoHotkey.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -795,6 +824,88 @@
 				},
 				{
 					"buffer": 6,
+					"file": "/C/AutoHotKeyScripts/key_mapping.ahk",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								524,
+								524
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AutoHotkey/AutoHotkey.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/AutoHotKeyScripts/folders.ahk",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								484,
+								484
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AutoHotkey/AutoHotkey.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 11.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/AutoHotKeyScripts/test.ahk",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AutoHotkey/AutoHotkey.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
 					"file": "/C/Users/Tim/SiteMap2/_themes_wordpress/Snaps/functions.php",
 					"semi_transient": false,
 					"settings":
@@ -817,7 +928,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4140.0,
+						"translation.y": 2550.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

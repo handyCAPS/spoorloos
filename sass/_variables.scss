@@ -4,15 +4,15 @@
 $fontbase: 16px;
 
 $sans: 'Open Sans', sans-serif;
-$headerFont: 'vollkornregular', serif;
+$headerFont: 'klinic_slabmedium', serif;
 $handWriting: 'Permanent Marker', sans-serif;
 
 
 	// Colors
 	
 $hue1: 195;
-$hue2: 23;
-$hue3: 13;
+$hue2: 220;
+$hue3: 278;
 $overlayOpacity: 0.7;
 
 $white: #FFFFFF; 
@@ -29,7 +29,7 @@ $middleColorSatHex: #4E9CB5;
 $lightColor: hsl($hue1, 85%, 86%);
 $lightColorOverlay:  hsla($hue1, 85%, 91%, $overlayOpacity);
 $lightColorHex: #bdeafa;
-$contrastColor:  hsl($hue3, 85%, 46%);
+$contrastColor:  hsl($hue3, 16%, 46%);
 $contrastColorOverlay:  hsla($hue2, 35%, 42%, $overlayOpacity);
 
 $linkColor: $darkColor;
